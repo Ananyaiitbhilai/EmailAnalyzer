@@ -74,9 +74,7 @@
     <div id="results"></div>
 
     <script>
-        const socket = io({
-    secure: true
-});
+        const socket = io("wss://fetchemailanalyzer.onrender.com");
         const classifyButton = document.getElementById('classifyButton');
 
         classifyButton.addEventListener('click', () => {
