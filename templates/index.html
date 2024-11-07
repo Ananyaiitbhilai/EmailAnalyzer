@@ -339,9 +339,7 @@
     </div>
 
     <script>
-        const socket = io({
-    secure: true
-});
+        const socket = io("wss://fetchemailanalyzer.onrender.com");
         
         function startClassification(event) {
             event.preventDefault();
