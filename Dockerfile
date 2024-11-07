@@ -16,5 +16,14 @@ COPY . .
 # Expose port 5000
 EXPOSE 5000
 
-# Command to run the application
-CMD ["gunicorn", "--bind", "0.0.0.0:5000","--workers", "1", "app:app"]
+# Start command with proper configuration for Render
+CMD gunicorn --worker-class eventlet \
+    --workers 1 \
+    --bind 0.0.0.0:$PORT \
+    --timeout 300 \
+    --keep-alive 5 \
+    --log-level info \
+    --access-logfile - \
+    --error-logfile - \
+    --log-file - \
+    app:app
