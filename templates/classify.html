@@ -74,7 +74,9 @@
     <div id="results"></div>
 
     <script>
-        const socket = io();
+        const socket = io({
+    secure: true
+});
         const classifyButton = document.getElementById('classifyButton');
 
         classifyButton.addEventListener('click', () => {
