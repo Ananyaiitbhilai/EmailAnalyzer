@@ -339,7 +339,9 @@
     </div>
 
     <script>
-        const socket = io();
+        const socket = io({
+    secure: true
+});
         
         function startClassification(event) {
             event.preventDefault();
