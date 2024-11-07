@@ -1,0 +1,2902 @@
+[
+  {
+    "id": "080-006192-EM.00",
+    "custodian_id": 80,
+    "date": "Mon, 18 Dec 2000 11:01:00 -0000",
+    "last_action": null,
+    "from": [
+      "Steve Austin",
+      "saustin@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Marie Washington",
+        "marie.washington@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "George Richard",
+        "george.richard@avocadoit.com"
+      ]
+    ],
+    "subject": "Cash loss",
+    "content": ""
+  },
+  {
+    "id": "172-002818-EM.00",
+    "custodian_id": 172,
+    "date": "Thu, 13 Sep 2001 08:06:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Divakar Tantravahi",
+      "dtantravahi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Rajeev Mohindra",
+        "rajeev@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Divakar Tantravahi",
+        "dtantravahi@avocadoit.com"
+      ],
+      [
+        "Nihar Mehta",
+        "nmehta@avocadoit.com"
+      ]
+    ],
+    "subject": "feedback on Admin SFS",
+    "content": "Rajeev , Bhagavan will be able to do the Graphics design , icon and splash screen , it will take him a day or two to do it , then we can put that to usability test and review . <s> I am not sure of the outside agency agreement , if it is coming for free ( already paid them or smaller piece of bigger thing they are doing ) then let us go with it . <s> It is your call . <s> For the UI design , Bhagavan will get it reviewed by Dondi and the entire team as it was done for the Install . <s> Thanks , \n diva ."
+  },
+  {
+    "id": "205-008577-EM.00",
+    "custodian_id": 205,
+    "date": "Mon, 26 Feb 2001 10:06:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Barry Phillips",
+      "bphillips@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "dcandelori@candelori.com"
+      ],
+      [
+        "Ron Silverton",
+        "rsilverton@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ],
+      [
+        "Ryan Glover",
+        "rglover@avocadoit.com"
+      ],
+      [
+        "Sue Bowers",
+        "sbowers@candelori.com"
+      ]
+    ],
+    "subject": "Invited IDC Analyst to Summit",
+    "content": "Hi Donna , \n Does it make sense to get an idea of the non - attendees calendars for the press $ analyst tour later while you have them on the phone ? <s> Thanks , \n Barry"
+  },
+  {
+    "id": "132-000787-EM.00",
+    "custodian_id": 132,
+    "date": "Tue, 05 Sep 2000 10:29:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Klee Larsen",
+      "klarsen@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Ruth Gantly",
+        "rgantly@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Publications Team",
+        "publications.team@no-address.com"
+      ],
+      [
+        "Andrew Wagoner",
+        "andrew.wagoner@avocadoit.com"
+      ]
+    ],
+    "subject": "Software upgrades",
+    "content": "FrameMaker : I already tried to purchase upgrades . <s> We currently only have one license . <s> This has been going on for more than a month now that we have been trying to upgrade FrameMaker . <s> Is there question about justifying our purchase of a license per user , or is it our need to the latest version of the tool that we use to do our job ?"
+  },
+  {
+    "id": "242-001205-EM.00",
+    "custodian_id": 242,
+    "date": "Thu, 03 May 2001 09:51:00 -0000",
+    "last_action": "re",
+    "from": [
+      "James Larrue",
+      "james.larrue-baulch@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Sujan Menezes",
+        "sujan.menezes@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Follow - up to Performance Review",
+    "content": "Looks good . <s> I have nothing to add . <s> Where : \t Sujan 's Office < < <s> James , here is the updated PA doc with the objectives for the \n next review period . <s> If you have any comments which should be added , please send \n them to me so I can add them to the master prior to our session . <s> Thanks , Sujan"
+  },
+  {
+    "id": "232-004562-EM.00",
+    "custodian_id": 232,
+    "date": "Tue, 05 Jun 2001 12:27:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Chandrasekhar Putigampu",
+      "cputigampu@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Chandrasekhar Putigampu",
+        "cputigampu@avocadoit.com"
+      ],
+      [
+        "",
+        "rolf.hausammann@accenture.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Chaitanya Nuguri",
+        "cnuguri@avocadoit.com"
+      ],
+      [
+        "Shailesh Kheny",
+        "skheny@avocadoit.com"
+      ],
+      [
+        "Sriram Mahabhashyam",
+        "sriram.mahabhashyam.-.india@no-address.com"
+      ]
+    ],
+    "subject": "Login Page",
+    "content": "Rolf $ Werner , \n We tried to reach you , but could n't . <s> Please go thru this mail and give us a call to office as soon as possible(+91 # # . ) <s> Looking forward for your reply and call . <s> Thanks , \n Chandra"
+  },
+  {
+    "id": "233-010312-EM.00",
+    "custodian_id": 233,
+    "date": "Thu, 07 Jun 2001 04:33:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ home.aml Script - session_3000015",
+    "content": "Please try again later ."
+  },
+  {
+    "id": "257-005806-EM.00",
+    "custodian_id": 257,
+    "date": "Thu, 12 Oct 2000 17:30:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Trish Lady",
+      "tlady@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Darshan Patel",
+        "dpatel@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Ongoing Visto Relationship",
+    "content": "Hi Darshan , I 've embedded my response below ."
+  },
+  {
+    "id": "163-005037-EM.00",
+    "custodian_id": 163,
+    "date": "Mon, 15 Apr 2002 19:55:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Craig Harper",
+      "craig.harper@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Roopak Parikh",
+        "roopak@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "subject": "EMAS report",
+    "content": "are YOU calling hung wierd ? ? ? ? ? ? ? ? <s> seriously , not good to make fun of hung . <s> he might come back and kick ur butt in tennis $ or pingpong ... :} Restarting the emas now ."
+  },
+  {
+    "id": "063-013613-EM.00",
+    "custodian_id": 63,
+    "date": "Tue, 17 Apr 2001 19:44:00 -0000",
+    "last_action": null,
+    "from": [
+      "Mehrak Hamzeh",
+      "mehrak.hamzeh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Darshan Patel",
+        "dpatel@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Thinque Acceptance Email",
+    "content": "Andrey , Attached is the PQA and the User Interface document ( DDS ) that we talked about in our conversation tonight . <s> This application is still running on a test server and in order to move to production we need you to confirm that everything is working properly . <s> Please review the application and reply to this email giving us official acceptance of the application . <s> After acceptance we will get this application on a production server . <s> You will get production support , full development fees are due and hosting billing starts . <s> Please keep in mind the scope of this project . <s> For purposes of this application as a selling tool , we have identified # pages which can match all the forms . <s> I have attached those HTML pages . <s> If we get other formats outside of these forms our application may fail . <s> We understand that there can be several types of forms depending on how each of your customers want to customize each form making this a very flexible application . <s> On a forward going basis , as Thinque gains new clients through this wireless selling tool we will build new requirements based on the customizability of each application to ensure successful wireless application deployment . <s> The usernames and passwords that work with this application are : \n ep1 , ep1 \n ep2 , ep2 \n ep3 , ep3 <s> What we need from Thinque \n # . <s> small icon for the PQA ----Darshan <s> what is the size of that ? <s> D , \n Also , with regards to the html pages that we identified for the forms . <s> They are not attached but will be included when I send this email . <s> The people receiving this email at thinque will be Andrey - lead developer and did all the feedback , Jerry Mendes - Biz Dev and now heads up Professional Svcs , and Nyu Ning - I believe she s the VP $ CTO . \n <s> In any event , who do we get sign off from ? <s> Personally , Andrey knows the wireless app best and the web site , plus he did all the feedback . <s> Please advise . <s> I got ta bounce for a few but will be back send me your feedback <s> and I will get this moving forward ."
+  },
+  {
+    "id": "250-010469-EM.00",
+    "custodian_id": 250,
+    "date": "Tue, 04 Sep 2001 23:06:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetrade88456 EPXML $ portfolio.aml Script $ session_4000018",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "172-001839-EM.00",
+    "custodian_id": 172,
+    "date": "Tue, 28 Aug 2001 17:47:00 -0000",
+    "last_action": null,
+    "from": [
+      "Sharon Yogi",
+      "syogi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Nihar Mehta",
+        "nmehta@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Vinayak Dhanapune",
+        "vdhanapune@avocadoit.com"
+      ],
+      [
+        "Ravi Dadi",
+        "rdadi@avocadoit.com"
+      ]
+    ],
+    "subject": "Bugzilla components for offline",
+    "content": "Hi Nihar - \n Can you send Vinayak the bugzilla components $ subcomponents $ owners you \n want to have set up for Offline . <s> ( for when QA starts testing . ) \n thanks , sharon"
+  },
+  {
+    "id": "029-001779-EM.00",
+    "custodian_id": 29,
+    "date": "Tue, 27 Feb 2001 16:13:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Brian Robinson",
+      "brobinson@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Stephen Ng",
+        "sng@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Palm.net",
+    "content": ""
+  },
+  {
+    "id": "144-012969-EM.00",
+    "custodian_id": 144,
+    "date": "Sat, 15 Sep 2001 18:52:00 -0000",
+    "last_action": null,
+    "from": [
+      "Mahesh Rangamani",
+      "mahesh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jaigak Song",
+        "jsong@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Section handling in translation",
+    "content": "The translation engine calls this before visit and after complete . <s> So , each translation adaptor need not check to see if Skip $ More has to be generated . <s> I have added code in BaseTranslationAdaptor to generate SKip $ More for html . <s> I am attaching BaseTranslationAdaptor.java . <s> The rest are checked into my development branch . <s> You can call me at ( # ) # # ( Home ) if you want to discuss these . Mahesh"
+  },
+  {
+    "id": "172-000723-EM.00",
+    "custodian_id": 172,
+    "date": "Thu, 09 Nov 2000 15:31:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Ravi Pachipala",
+      "rpachipala@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Tony Raj",
+        "traj@avocadoit.com"
+      ],
+      [
+        "Jin Cheng",
+        "jin.cheng@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Nihar Mehta",
+        "nmehta@avocadoit.com"
+      ],
+      [
+        "Roopak Parikh",
+        "roopak@avocadoit.com"
+      ]
+    ],
+    "subject": "Latest DTD",
+    "content": "I guess it is legacy code . <s> May be Roopak can throw some light . <s> ( he will be in on Friday ) Ravi"
+  },
+  {
+    "id": "144-014288-EM.00",
+    "custodian_id": 144,
+    "date": "Tue, 28 Nov 2000 15:23:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Ravi Pachipala",
+      "rpachipala@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jaigak Song",
+        "jsong@avocadoit.com"
+      ],
+      [
+        "Krishnamohan Ganti",
+        "kganti@avocadoit.com"
+      ],
+      [
+        "Lisa Chui",
+        "lchui@avocadoit.com"
+      ],
+      [
+        "Mahesh Rangamani",
+        "mahesh@avocadoit.com"
+      ],
+      [
+        "Roopak Parikh",
+        "roopak@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Beta II refresh features .",
+    "content": ""
+  },
+  {
+    "id": "147-003818-EM.00",
+    "custodian_id": 147,
+    "date": "Fri, 08 Dec 2000 13:53:00 -0000",
+    "last_action": null,
+    "from": [
+      "Toni Oliveria",
+      "toni.oliveria@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Emma Fowler",
+        "emma.fowler@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Mitch Stewart",
+        "mitch.stewart@avocadoit.com"
+      ],
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ],
+      [
+        "Marilisa Walski",
+        "marilisa.walski@avocadoit.com"
+      ],
+      [
+        "Toni Oliveria",
+        "toni.oliveria@avocadoit.com"
+      ]
+    ],
+    "subject": "Infobrella Welcome Kit needs to go out - Mond $ Tuesday",
+    "content": "HI Emma , Did you ever hear back from Debbie in the Welcome Kit chatka stuff we can send out .. <s> We 've only got two EWAPers signed up and at present $ we can only send one kit out $ to Infobrella ... until we figure out what to do with Pervasent . <s> Marilisa is printing up the Certificate $ and if it 's not done today .. <s> can you please just sign my name to it and send out to the Infobrella contact either Monday or Tuesday of next week with an : AvocadoIT <s> Marilisa will also be printing up a welcome letter filling in all infobrella 's info at top .. <s> The letter , certificate and chatka 's are the only things that need to go out at present $ for Infobrella only $ <s> Ron will be checking on whether we keep Pervasent as a partner or not .. <s> If we do $ <s> they will also need a welcome kit . <s> At present $ the Pervasent thing is on hold ."
+  },
+  {
+    "id": "210-001479-EM.00",
+    "custodian_id": 210,
+    "date": "Tue, 22 May 2001 14:29:00 -0000",
+    "last_action": null,
+    "from": [
+      "Rishi Manocha",
+      "rmanocha@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mike Richman",
+        "mike.richman@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Lisa Quaglietti",
+        "lisaq@avocadoit.com"
+      ],
+      [
+        "Darshan Patel",
+        "dpatel@avocadoit.com"
+      ]
+    ],
+    "subject": "Final Estimate for Alaska Palm Streamlining & Rim projects",
+    "content": "Mike , The estimate below have been calculated using the formula that you and I had talked about last week - adjusting development time for the lower contract proj . <s> For the actual time estimate , please refer to the scoping documents attached . <s> It does not include additional functionality that Alaska may choose to add to the Rim application or a complex UI . <s> Let me know if you have any questions ."
+  },
+  {
+    "id": "257-004473-EM.00",
+    "custodian_id": 257,
+    "date": "Tue, 12 Sep 2000 09:11:00 -0000",
+    "last_action": null,
+    "from": [
+      "Trish Lady",
+      "tlady@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Susan Simmons",
+        "ssimmons@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Affiliate Agreement - Payment provision",
+    "content": "Susan , I know you 've been swamped and probably have n't had a chance to get to my earlier email about the affiliate agreement . <s> I need your help in reviewing section # , payment , to see if it works for your a $ p schedule . <s> I 've embedded the provision below . <s> Let me know if there is an easier payment schedule from a workflow standpoint than the one contained in the provision . <s> Thanks , \n Trish Payment . <s> AvocadoIT will pay Company a commission equal to ten percent ( # % ) of net revenue actually received by AvocadoIT during the first year of AvocadoIT 's agreement with Customer to provide the AvocadoIT Rendering Solution . <s> AvocadoIT may change the amount or structure of commissions on one ( # ) month 's written notice . <s> AvocadoIT will pay commissions by check payable to Company within ninety ( # ) days after the end of the calendar month in which the commissions are earned . <s> Commissions totaling less than fifty dollars ( $ # ) for a calendar month will be aggregated until a minimum of fifty dollars ( $ # ) has been earned and paid within ninety ( # ) days after the end of the calendar month in which commissions reach fifty dollars ( $ # ) . <s> If this Agreement is terminated , AvocadoIT will pay any remaining commissions within ninety ( # ) days after the end of the calendar month in which the termination occurred ."
+  },
+  {
+    "id": "178-016064-EM.00",
+    "custodian_id": 178,
+    "date": "Mon, 30 Apr 2001 10:40:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Om Sonie",
+      "osonie@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Dondi Gaskill",
+        "dondi.gaskill@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Updated : Postpatrum",
+    "content": "Dondi , Sorry for the confusion , It was only for R&D managers . <s> Where : \t Conference Room - Pacifica"
+  },
+  {
+    "id": "203-001874-EM.00",
+    "custodian_id": 203,
+    "date": "Tue, 05 Dec 2000 10:10:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Emma Fowler",
+      "emma.fowler@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Rene Romain",
+        "rromain@avocadoit.com"
+      ],
+      [
+        "Fortunata Hermoso",
+        "fortunata.hermoso@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ]
+    ],
+    "subject": "HP diagram and sales fact sheet pdf",
+    "content": "Rene , please advise what the full contact info . <s> should be on this piece . <s> Thanks , Emma"
+  },
+  {
+    "id": "196-000644-EM.00",
+    "custodian_id": 196,
+    "date": "Tue, 24 Sep 2002 19:22:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Roopak Parikh",
+      "roopak@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Krishnamohan Ganti",
+        "kganti@avocadoit.com"
+      ],
+      [
+        "4.0_Rd_Team",
+        "4.0_rd_team@no-address.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Clearcase",
+    "content": ""
+  },
+  {
+    "id": "144-011901-EM.00",
+    "custodian_id": 144,
+    "date": "Tue, 16 Nov 1999 15:05:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Amitabh Sinha",
+      "amitabh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Prasad Krothapalli",
+        "prasad@avocadoit.com"
+      ],
+      [
+        "Server Team",
+        "server.team@no-address.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Weekly Lunch",
+    "content": "i think we might need to make reservations ."
+  },
+  {
+    "id": "069-000271-EM.00",
+    "custodian_id": 69,
+    "date": "Mon, 10 Sep 2001 18:20:00 -0000",
+    "last_action": null,
+    "from": [
+      "Doug Field",
+      "dfield@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Dan Baca",
+        "dbaca@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Elisabeth Whaley",
+        "elisabeth.whaley@avocadoit.com"
+      ]
+    ],
+    "subject": "Developing Actionable Alerts Applications , beta training class , #",
+    "content": "Dan , Could you please confirm via e - mail to Elisabeth Whaley who it is in your group that you would like to enroll in next week 's class ?"
+  },
+  {
+    "id": "112-001704-EM.00",
+    "custodian_id": 112,
+    "date": "Thu, 14 Dec 2000 11:07:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Ron Silverton",
+      "rsilverton@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jon Laporte",
+        "jon.laporte@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "' The Basics of Wireless Data ' seminar is coming !",
+    "content": "Do n't waste the money ."
+  },
+  {
+    "id": "144-014926-EM.00",
+    "custodian_id": 144,
+    "date": "Wed, 09 Feb 2000 19:43:00 -0000",
+    "last_action": "re",
+    "from": [
+      "John Schemena",
+      "jschemena@avocadoit.com"
+    ],
+    "to": [
+      [
+        "All Employees",
+        "all@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Dinner",
+    "content": "Dinner is here"
+  },
+  {
+    "id": "147-003824-EM.00",
+    "custodian_id": 147,
+    "date": "Fri, 02 Feb 2001 14:13:00 -0000",
+    "last_action": null,
+    "from": [
+      "Emma Fowler",
+      "emma.fowler@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Marilisa Walski",
+        "marilisa.walski@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Please e - mail me the correct logo to use for print and electronic usage . Thanks ! Emma",
+    "content": ""
+  },
+  {
+    "id": "089-001782-EM.00",
+    "custodian_id": 89,
+    "date": "Tue, 23 Oct 2001 11:13:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Michael Liang",
+      "mliang@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "",
+    "content": "Can you append the data to one file so that we can graph to view a history of them ?"
+  },
+  {
+    "id": "250-010458-EM.00",
+    "custodian_id": 250,
+    "date": "Sat, 01 Sep 2001 10:04:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ main.aml Script $ session_3000007",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "107-008584-EM.00",
+    "custodian_id": 107,
+    "date": "Mon, 03 Apr 2000 11:34:00 -0000",
+    "last_action": null,
+    "from": [
+      "Jaime Mcneely",
+      "jmcneely@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "anjali@corp.siliconindia.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Debbie Margulies",
+        "dmargulies@avocadoit.com"
+      ],
+      [
+        "Ryan Glover",
+        "rglover@avocadoit.com"
+      ]
+    ],
+    "subject": "Venktesh Shukla - Bio and Photographs for Speaker Siliconindia",
+    "content": "As per your request for bio and photos : Venktesh Shukla , CEO of AvocadoIT \n An entrepreneur and veteran of two previous start up ventures , \n Venk brings # years of sales , marketing and general \n management experience to avocadoit , and a proven track \n record of leading companies through rapid growth . <s> He was \n previously Vice President in charge of the Ambit group of \n Cadence Design Systems , a $ # billion electronic design \n automation leader . <s> Prior to acquisition by Cadence , he was Vice \n President of Marketing for Ambit Design Systems . <s> At Systems & \n Networks , a network planning software company , he was Vice \n President of Marketing and Sales . <s> Venk started his career in Civil \n Service in India where he was the Under Secretary to the \n federal government of India . <s> He holds a Masters in Management \n from MIT 's Sloan School of Management in Cambridge , Massachusetts . <s> Photographs \n We would like to use this one : <s> But if the one above is not workable , then use this one : Please contact me if you have any questions . \n <s> Thank you . \n"
+  },
+  {
+    "id": "206-005687-EM.00",
+    "custodian_id": 206,
+    "date": "Wed, 14 Mar 2001 16:23:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Dan Baca",
+      "dbaca@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Elba Linscott",
+        "elinscott@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "David Meltzer",
+        "david.meltzer@avocadoit.com"
+      ],
+      [
+        "Ricardo Garcia",
+        "ricardo.garcia@avocadoit.com"
+      ],
+      [
+        "John Schemena",
+        "jschemena@avocadoit.com"
+      ]
+    ],
+    "subject": "AWA Status",
+    "content": "Elba , Thanx for helping with this . <s> Can we make any improvements to this process : - Why is there the 3pm - midnight restriction ? <s> This will impact our ability to test during development . <s> However , I 'm not sure of impact if development is done in India . - <s> If our user profile has a ' test booking credit card ' then why do we need to notify them by email Also , what if we mis - count the number of tickets we purchase with the test credit card ? <s> If this is the best they can do , then we have no choice but this process does seem kinda cumbersome \n for AE during scoping and development ."
+  },
+  {
+    "id": "196-008476-EM.00",
+    "custodian_id": 196,
+    "date": "Fri, 21 Sep 2001 17:16:00 -0000",
+    "last_action": null,
+    "from": [
+      "Srikanth Raghavan",
+      "sraghavan@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Ritesh Adval",
+        "radval@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "looks like jtidy is integrated",
+    "content": "Parsing ' InputStream ' \n InputStream : Document content looks like HTML # # warnings $ errors were found ! <s> Next character must be ' > ' terminating < ! ENTITY ... ADD \n declaration ' % EPNamespace ' ."
+  },
+  {
+    "id": "233-004698-EM.00",
+    "custodian_id": 233,
+    "date": "Tue, 29 May 2001 11:35:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetradepda EPXML $ research1.aml Script $ session_5000047",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "281-008416-EM.00",
+    "custodian_id": 281,
+    "date": "Mon, 19 Jun 2000 16:30:00 -0000",
+    "last_action": null,
+    "from": [
+      "Ruth Gantly",
+      "rgantly@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Tony Raj",
+        "traj@avocadoit.com"
+      ],
+      [
+        "Edward Tian",
+        "etian@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Ruth Gantly",
+        "rgantly@avocadoit.com"
+      ],
+      [
+        "Mark Tracy",
+        "mjtracy@avocadoit.com"
+      ]
+    ],
+    "subject": "ERT - New features added since #",
+    "content": "Hi Tony and Edward , Can you please send me a list of all the new features that you 've added to this release . \n <s> Mark mentioned that some of the new features have effected the rendering tool in generating new workflows . \n <s> Can you please send me a list of the new workflows that we have and also the new procedure required for each of the new flows . <s> This information will be added to the release notes tonight and we can review the content in the morning and follow up on the individual items ."
+  },
+  {
+    "id": "250-013487-EM.00",
+    "custodian_id": 250,
+    "date": "Fri, 31 Aug 2001 08:11:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetradepda EPXML - start.aml Script = pings30_5000021",
+    "content": "The application is temporarily unavailable . <s> Please try again later . <s> [ Error : # ) \n < /body ADD \n ADD /html ADD"
+  },
+  {
+    "id": "186-003036-EM.00",
+    "custodian_id": 186,
+    "date": "Tue, 18 Apr 2000 11:36:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Ravi Pachipala",
+      "rpachipala@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Piyush Goel",
+        "pgoel@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Prasad Krothapalli",
+        "prasad@avocadoit.com"
+      ],
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ]
+    ],
+    "subject": "DutyFreeZone.com",
+    "content": "Hi Piyush , Here is the status . <s> chemmatch - Per Rajeev it is not important . \n <s> i - itenarary - there is a workaround for this . \n <s> upshot - Roopak identified the following problems . <s> All these are part of new features to be implemented . <s> - new window popup when you do ' find ' ( an onclick event ) . <s> - alert window when an input is left empty - changes # . <s> This can be worked around by extracting the proper url from the new frameset page . - iframes - This still needs to be investigated . <s> There is a browser not supported error in designer . <s> This still needs to be investigated . <s> bug # , # ( checkboxes with vertical scroll ) - fixed , ready to be checked in . \n <s> # ( rendering default # fixed , ready to be checked in \n # ( javascript poblem)- workarounds $ fixes given \n # ( Nested loop vertical scroll)- Yatin is working on this Ravi"
+  },
+  {
+    "id": "094-001302-EM.00",
+    "custodian_id": 94,
+    "date": "Fri, 05 Jan 2001 19:56:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Craig Harper",
+      "craig.harper@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Nadir Nawabzada",
+        "nnawabzada@avocadoit.com"
+      ],
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Network shutdown on Sunday # !",
+    "content": "I 'm assuming this will be me . <s> Michael , tony and myself are the ones that would be the people that would do this . <s> Michael 's going to london , tony starts on - call on monday plus he may $ may not be sick . <s> I 'll do it ..... <s> I 've put a page into tony . <s> ( hope he does n't get a paper cut ) . <s> I do n't have access to one of the solaris boxes . <s> If I can get that worked out , then there 'll be no problems ."
+  },
+  {
+    "id": "173-019125-EM.00",
+    "custodian_id": 173,
+    "date": "Tue, 23 Oct 2001 13:26:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Ravikumar Palanisamy",
+      "ravikumar.palanisamy@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Vinayak Dhanapune",
+        "vdhanapune@avocadoit.com"
+      ],
+      [
+        "Qa Team San Jose",
+        "qa.team.san.jose@no-address.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "devlabws1 and hdml phone",
+    "content": "I am not using devlabws1"
+  },
+  {
+    "id": "057-004926-EM.00",
+    "custodian_id": 57,
+    "date": "Thu, 02 Aug 2001 17:31:00 -0000",
+    "last_action": null,
+    "from": [
+      "David Chan",
+      "dchan@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Germana Martinez",
+        "germana.martinez@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Please help collect",
+    "content": "Germana : please help me big time . <s> Srikant needs a form to donate and George Richard was in for $ # . <s> Really appreciate it ."
+  },
+  {
+    "id": "068-003779-EM.00",
+    "custodian_id": 68,
+    "date": "Tue, 26 Jun 2001 12:20:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Dan Baca",
+      "dbaca@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Elba Linscott",
+        "elinscott@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Inbursa scoping for XML",
+    "content": ""
+  },
+  {
+    "id": "040-009635-EM.00",
+    "custodian_id": 40,
+    "date": "Wed, 11 Jul 2001 14:55:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Christopher Quinter",
+      "christopher.quinter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Peter Smialek",
+        "peter.smialek@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Cognos Mutual NDA",
+    "content": "Peter : Craig is on vacation this week and we are going to set something up when he gets back on Monday . <s> Shooting for next week sometime ."
+  },
+  {
+    "id": "205-000959-EM.00",
+    "custodian_id": 205,
+    "date": "Fri, 14 Apr 2000 19:36:00 -0000",
+    "last_action": null,
+    "from": [
+      "Ryan Glover",
+      "rglover@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jaime Mcneely",
+        "jmcneely@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Ryan 's new mobile # is #",
+    "content": ""
+  },
+  {
+    "id": "093-000466-EM.00",
+    "custodian_id": 93,
+    "date": "Wed, 31 Jan 2001 14:44:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Robert Moore",
+      "rmoore@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Emma Fowler",
+        "emma.fowler@avocadoit.com"
+      ],
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Andy Wong",
+        "awong@avocadoit.com"
+      ]
+    ],
+    "subject": "Jupiter Launch Logistics",
+    "content": "Helen and Emma , I registered myself as an exhibiter for the Sun event to handle the demo station from # to # . <s> Per the first attachment , as being an exhibiter I wo n't be able to attend the general session or breakouts . <s> Do we want to try and get anyone else from AvocadoIT to attend the event ? Robert"
+  },
+  {
+    "id": "144-001180-EM.00",
+    "custodian_id": 144,
+    "date": "Mon, 31 Jan 2000 14:38:00 -0000",
+    "last_action": null,
+    "from": [
+      "Srikanth Raghavan",
+      "sraghavan@avocadoit.com"
+    ],
+    "to": [
+      [
+        "All Employees",
+        "all@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Dinner Tonight is from China Stix :",
+    "content": "SIgnup sheet is in the kitchen . <s> You know what to do . \n"
+  },
+  {
+    "id": "024-006969-EM.00",
+    "custodian_id": 24,
+    "date": "Mon, 23 Apr 2001 12:26:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Glenn Pereira",
+      "gpereira@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ],
+      [
+        "Richard Yoza",
+        "ryoza@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Betty Chan",
+        "betty.bauza@avocadoit.com"
+      ]
+    ],
+    "subject": "bevocal",
+    "content": "I do n't think Richard 's responses were forwarded to me . <s> Here are the questions I identified . <s> 1 ) If an HTTP server is not used , how does your solution integrate into N - Tier environments which incorporate a DMZ ? < < Prakash . <s> We have answered these questions . <s> Have Richard Yoza fill this . 2 ) Describe the load balancing , clustering , and failover mechanisms utilized by your application server solution . <s> If an HTTP front - end is used , describe how load balancing is achieved between application servers . <s> Prakash \u2013 Ricahrd $ Steve can describe this # ) Describe your application server \u2019s method of maintaining session state persistence across the application server cluster ."
+  },
+  {
+    "id": "205-003185-EM.00",
+    "custodian_id": 205,
+    "date": "Thu, 31 Aug 2000 15:53:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Ryan Glover",
+      "rglover@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "kristik@upshot.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "ZDTV company profile opportunity",
+    "content": "Hi Kristi , \n Gina Palmer said you are now the appropriate PR contact UpShot.com . <s> I sent the below email to Malcolm Webb and Michele Reina ( who is no longer with UpShot.com ) . <s> Basically , AvocadoIT was asked by ZDTV to recommend a local small - med sized company that is using our mobilization services , and we feel UpShot.com is an excellent choice . <s> We would love for Malcolm Webb or another UpShot.com representative to participate in the ZDTV interview . <s> There are more details below . <s> Please call me to discuss further ."
+  },
+  {
+    "id": "250-006049-EM.00",
+    "custodian_id": 250,
+    "date": "Tue, 28 Aug 2001 00:18:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid $ # EPXML - start.aml Script $ pings14_5000021",
+    "content": "The application is temporarily unavailable . <s> Please try again later . <s> [ Error : # ) \n < /body ADD \n ADD /html ADD"
+  },
+  {
+    "id": "166-000192-EM.00",
+    "custodian_id": 166,
+    "date": "Wed, 07 Nov 2001 15:50:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Lisa Zissen",
+      "lisa.zissen@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mark Stewart",
+        "mstewart@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Palm Information",
+    "content": "What guy ?"
+  },
+  {
+    "id": "144-000795-EM.00",
+    "custodian_id": 144,
+    "date": "Mon, 22 Oct 2001 10:08:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "wmartono@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "emas@avocadoit.com"
+      ],
+      [
+        "",
+        "cmteam@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Server Unit Tests Result for # $ # $ #",
+    "content": "Testsuite : com.avocadoit.online.util ."
+  },
+  {
+    "id": "061-000736-EM.00",
+    "custodian_id": 61,
+    "date": "Fri, 01 Jun 2001 16:53:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Don Giesen",
+      "don.giesen@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Dan Baca",
+        "dbaca@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "E*TRADE contract renewal with AvocadoIT",
+    "content": "Thx ... keep me posted ! ! \n <s> -------------------------- \n ' AvocadoIT ... <s> Your Business Everywhere '"
+  },
+  {
+    "id": "040-007905-EM.00",
+    "custodian_id": 40,
+    "date": "Wed, 01 Aug 2001 12:03:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Christopher Quinter",
+      "christopher.quinter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Brett Welborn",
+        "brett.welborn@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Acting on the MRO Vision , New Capabilities",
+    "content": "Just left a message for you . <s> Give me a ring when you can ."
+  },
+  {
+    "id": "250-004775-EM.00",
+    "custodian_id": 250,
+    "date": "Thu, 23 Aug 2001 14:47:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ # Script = session_3000003",
+    "content": "First occurrence : <s> Unexpected flow reached by the server ."
+  },
+  {
+    "id": "144-000180-EM.00",
+    "custodian_id": 144,
+    "date": "Thu, 20 Sep 2001 11:06:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "emas.monitor@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "zlist@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Alarm ( memory_application ) from #",
+    "content": ""
+  },
+  {
+    "id": "233-002947-EM.00",
+    "custodian_id": 233,
+    "date": "Sun, 03 Jun 2001 22:10:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ home.aml Script $ session_3000011",
+    "content": "Please try again later ."
+  },
+  {
+    "id": "206-007448-EM.00",
+    "custodian_id": 206,
+    "date": "Thu, 17 May 2001 16:34:00 -0000",
+    "last_action": null,
+    "from": [
+      "Robert Moore",
+      "rmoore@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Ricardo Garcia",
+        "ricardo.garcia@avocadoit.com"
+      ],
+      [
+        "Dan Baca",
+        "dbaca@avocadoit.com"
+      ],
+      [
+        "Mike Richman",
+        "mike.richman@avocadoit.com"
+      ]
+    ],
+    "subject": "Sun Global Sales Organization RFP",
+    "content": "Hi Barry , AvocadoIT is responding to a RFP with Accenture . <s> The RFP is to mobilize the MySales portal and other information for their Global Sales Organization . <s> There is an interactive voice component to the RFP that Accenture will likely need our help with . <s> Ricardo is the technical POC for the AvocadoIT responses and Mike Richman is the sales rep . <s> Can we work with you tomorrow to help sketch out the voice component to the RFP ? <s> Accenture 's goal is to have # % of the text in place by next Wednesday and their internal review of the nearly completed RFP starting the following Monday . <s> The completed RFP is due in Sun 's hands on the 4th of June . <s> thanks , \n Robert"
+  },
+  {
+    "id": "233-003352-EM.00",
+    "custodian_id": 233,
+    "date": "Tue, 22 May 2001 20:09:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetradepda EPXML $ X_CompleteFlash.aml Script = session_5000036",
+    "content": "Last occurrence : <s> Unexpected flow reached by the server ."
+  },
+  {
+    "id": "250-010338-EM.00",
+    "custodian_id": 250,
+    "date": "Fri, 31 Aug 2001 21:15:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetrade88456 EPXML $ research.aml Script $ session_4000011",
+    "content": "Last occurrence : <s> Error Message : \n < hdml TTL=60 MARKABLE = true VERSION=3.0 <s> PUBLIC = true ADD \n ADD DISPLAY > < WRAP > <s> [ Error : # ) Server too busy . <s> Try connecting again later ."
+  },
+  {
+    "id": "232-007569-EM.00",
+    "custodian_id": 232,
+    "date": "Fri, 08 Jun 2001 15:45:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Shailesh Kheny",
+      "skheny@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Chandrasekhar Putigampu",
+        "cputigampu@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Support",
+        "support@avocadoit.com"
+      ]
+    ],
+    "subject": "USPS EMDS Files",
+    "content": "Hi Chandu , Forwarding you the zip folder for the usps application . <s> Kindly check the application is up and running in # and forward the application to me or to support as soon as possible ."
+  },
+  {
+    "id": "189-000530-EM.00",
+    "custodian_id": 189,
+    "date": "Thu, 06 Jul 2000 17:46:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Susan Simmons",
+      "ssimmons@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Paiman Komeilizadeh",
+        "pkomeilizadeh@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Please Approve -",
+    "content": "Approved . <s> Please issue a P.O. to Mark Stewart as soon as possible . <s> Thanks , \n Susan"
+  },
+  {
+    "id": "206-010548-EM.00",
+    "custodian_id": 206,
+    "date": "Wed, 05 Sep 2001 16:17:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Mike Richman",
+      "mike.richman@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Ricardo Garcia",
+        "ricardo.garcia@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Brainstorm for AWA 's meeting",
+    "content": "Good idea . <s> So , will you have a chance to take this graphic and use PowerPoint , or something , and make it presentable by this Friday \u2019s meeting ?"
+  },
+  {
+    "id": "085-002447-EM.00",
+    "custodian_id": 85,
+    "date": "Thu, 01 Mar 2001 07:41:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Mehrak Hamzeh",
+      "mehrak.hamzeh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Grant Frederiksen",
+        "grant.frederiksen@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Opportunities with AFLAC",
+    "content": "The response . <s> I will be following up with them next week ."
+  },
+  {
+    "id": "211-002729-EM.00",
+    "custodian_id": 211,
+    "date": "Fri, 07 Sep 2001 11:19:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Ron Silverton",
+      "rsilverton@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Brett Welborn",
+        "brett.welborn@avocadoit.com"
+      ],
+      [
+        "Robert Moore",
+        "rmoore@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Verbiage for reprints link",
+    "content": ""
+  },
+  {
+    "id": "096-004739-EM.00",
+    "custodian_id": 96,
+    "date": "Wed, 06 Jun 2001 10:02:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Jackie Valle",
+      "jackie.valle@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Germana Martinez",
+        "germana.martinez@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "You have just received a new inbound Fax at 06/06/01 # AM",
+    "content": "Yeah . <s> Ok thanks . <s> also , ( completely off the subject ) how do I get my AIM back ? <s> I downloaded like the new version of it or whatever and like \n now it 's not on my computer anymore ."
+  },
+  {
+    "id": "154-000498-EM.00",
+    "custodian_id": 154,
+    "date": "Tue, 08 Aug 2000 17:24:00 -0000",
+    "last_action": null,
+    "from": [
+      "Prasad Krothapalli",
+      "prasad@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Rajeev Mohindra",
+        "rajeev@avocadoit.com"
+      ],
+      [
+        "Amitabh Sinha",
+        "amitabh@avocadoit.com"
+      ],
+      [
+        "Mamta Goyal",
+        "mgoyal@avocadoit.com"
+      ],
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "JCover Code Coverage Testing",
+    "content": "Jcover is available from Java soft ."
+  },
+  {
+    "id": "128-000709-EM.00",
+    "custodian_id": 128,
+    "date": "Tue, 23 May 2000 15:15:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Sharon Yogi",
+      "syogi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Kasi Gollapudi",
+        "kgollapudi@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Check this out",
+    "content": "http://news.excite.com/news/zd/000523/09/w3c-accepts-voicexml This is a voice definition version of XML for enable voice \n communication between devices ."
+  },
+  {
+    "id": "008-009996-EM.00",
+    "custodian_id": 8,
+    "date": "Wed, 02 Oct 2002 12:06:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Lisa Zissen",
+      "lisa.zissen@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Debbie Margulies",
+        "dmargulies@avocadoit.com"
+      ],
+      [
+        "Amy Moore",
+        "amy.moore@avocadoit.com"
+      ],
+      [
+        "Ty Wang",
+        "ty.wang@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Today 's Lunch",
+    "content": "It started late , so they are about # minutes behind . <s> I think it will wrap at # ?"
+  },
+  {
+    "id": "008-005809-EM.00",
+    "custodian_id": 8,
+    "date": "Mon, 31 Dec 2001 08:17:00 -0000",
+    "last_action": null,
+    "from": [
+      "Matt Dimaria",
+      "matt.dimaria@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Amy Moore",
+        "amy.moore@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "At home",
+    "content": "Hi , I 'm at home if you need me . \n <s> [ This message was sent from Blackberry handheld . )"
+  },
+  {
+    "id": "007-004513-EM.00",
+    "custodian_id": 7,
+    "date": "Tue, 14 Nov 2000 10:03:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Marie Washington",
+      "marie.washington@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Amit Sethi",
+        "amit.sethi@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "financial planner position",
+    "content": "Amit , Yes , we need this person to be on - site . <s> Any help you could give us is much appreciated ."
+  },
+  {
+    "id": "178-009381-EM.00",
+    "custodian_id": 178,
+    "date": "Mon, 05 Mar 2001 15:50:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "John Schemena",
+      "jschemena@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Om Sonie",
+        "osonie@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Bithi Agrawal",
+        "bagrawal@avocadoit.com"
+      ],
+      [
+        "Doug Adkins",
+        "doug.adkins@avocadoit.com"
+      ],
+      [
+        "Kelsey Kerr",
+        "kkerr@avocadoit.com"
+      ],
+      [
+        "Lisa Quaglietti",
+        "lisaq@avocadoit.com"
+      ]
+    ],
+    "subject": "bug for AE2.010",
+    "content": "Om , I believe that Prof. Services $ Sales is just begining the process to send you a consolidated bug escalation list but I 'm wondering what the status is for getting a fix for this problem ( http://bugzilla $ bugzilla $ show_bug.cgi?id=3876 ) ? <s> This has been $ # on AE 's bug escalation list on the AE intranet ( \\\\Aesrvr1\\Apache Group\\Apache\\htdocs\\Bug Escalation on AE Intranet.xls ) for several days now . <s> Note : this has been holding back deploying E*TRADE 's WML application & also has prevented us from moving their RIM application to their regular server cluster from it 's dedicated server at colo . <s> Thanks , John"
+  },
+  {
+    "id": "250-003547-EM.00",
+    "custodian_id": 250,
+    "date": "Sun, 02 Sep 2001 11:10:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetrade88456 EPXML $ main.aml Script = session_4000008",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "270-001132-EM.00",
+    "custodian_id": 270,
+    "date": "Thu, 28 Sep 2000 00:22:00 -0000",
+    "last_action": null,
+    "from": [
+      "Werner Hehl",
+      "werner.hehl@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "wernerh@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "test",
+    "content": ""
+  },
+  {
+    "id": "163-004648-EM.00",
+    "custodian_id": 163,
+    "date": "Wed, 24 Apr 2002 14:33:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Steve Hirata",
+      "shirata@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "E*TRADE log files",
+    "content": "As a side note . <s> I have called a # meeting to hammer on some people . <s> Appears that PS wants to be prepared ."
+  },
+  {
+    "id": "267-002604-EM.00",
+    "custodian_id": 267,
+    "date": "Fri, 16 Nov 2001 15:43:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Venk Shukla",
+      "shukla@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Matt Dimaria",
+        "matt.dimaria@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Request for info",
+    "content": "I will get Susan to work on this . <s> Thanks ."
+  },
+  {
+    "id": "144-016720-EM.00",
+    "custodian_id": 144,
+    "date": "Thu, 27 Sep 2001 13:53:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Jin Cheng",
+      "jin.cheng@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Online_Team",
+        "online_team@no-address.com"
+      ]
+    ],
+    "subject": "EMAS Sanity Test Result for 3.5GA Build # ( # tests failed )",
+    "content": "QA is fixing the problem by copying the correct config file . <s> THanks \n -Jin"
+  },
+  {
+    "id": "163-007098-EM.00",
+    "custodian_id": 163,
+    "date": "Mon, 18 Feb 2002 16:40:00 -0000",
+    "last_action": null,
+    "from": [
+      "Craig Harper",
+      "craig.harper@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "fidelity down again",
+    "content": "ok , so I did some looking <s> and yes , I know what the problems is . <s> The memory size problem is affecting fidelity now . <s> That is why it 's been going down here and there . <s> It was down most of the week ! ? ! ? <s> My fault , after I put the fidelity back on the normal network at exodus , I never got around to putting it into netsaint . <s> I just did . <s> Yes , there 's an emasstat1 and emasstat2 like etrade , but it does n't work correctly . <s> the version of emas on there ignores the port , so sometimes we 'll get lucky and get both server results , sometimes we will have # and # be the same server .... <s> Anyways , I am almost done with setting up fidelity for AE to test . <s> While they are testing , I will convert my scripts for go2 into something usable by fidelity so it 'll automatically restart on memory size deficiencies ... ' rm -Rf $ $ laden ' Craig"
+  },
+  {
+    "id": "233-010997-EM.00",
+    "custodian_id": 233,
+    "date": "Mon, 04 Jun 2001 22:12:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ research.aml Script $ session_3000016",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "250-009496-EM.00",
+    "custodian_id": 250,
+    "date": "Sat, 25 Aug 2001 07:33:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretradefilter@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretradefilter@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ # Script = session_3000003",
+    "content": "Unexpected flow reached by the server ."
+  },
+  {
+    "id": "236-000390-EM.00",
+    "custodian_id": 236,
+    "date": "Wed, 04 Oct 2000 15:04:00 -0000",
+    "last_action": null,
+    "from": [
+      "Srilatha Seethamraju",
+      "ssrilatha@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Shiva Reddy",
+        "sreddy@avocadoit.com"
+      ],
+      [
+        "Phani Yadavalli",
+        "pyadavalli@avocadoit.com"
+      ],
+      [
+        "Ryan Vuong",
+        "rvuong@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Aish",
+    "content": ""
+  },
+  {
+    "id": "057-005658-EM.00",
+    "custodian_id": 57,
+    "date": "Mon, 12 Mar 2001 13:37:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Ron Silverton",
+      "rsilverton@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ],
+      [
+        "Amit Sethi",
+        "amit.sethi@avocadoit.com"
+      ],
+      [
+        "Prakash Iyer",
+        "piyer@avocadoit.com"
+      ],
+      [
+        "David Chan",
+        "dchan@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Looking for a wireless solution without caveats ?",
+    "content": "I thought we decided they did n't invest in anyone ? <s> The do have money from some other big names however , such as CISCO ."
+  },
+  {
+    "id": "007-012703-EM.00",
+    "custodian_id": 7,
+    "date": "Thu, 19 Oct 2000 17:53:00 -0000",
+    "last_action": null,
+    "from": [
+      "Richard Yoza",
+      "ryoza@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Prakash Iyer",
+        "piyer@avocadoit.com"
+      ],
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ],
+      [
+        "Amit Sethi",
+        "amit.sethi@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Srikanth Raghavan",
+        "sraghavan@avocadoit.com"
+      ]
+    ],
+    "subject": "CD was accidentally shipped to Cogniant",
+    "content": "When shipped back Cogniant 's laptop yesterday , I accidentally left the CD in their drive . <s> It should n't be a problem because they can not install unless they know the ' secret ' CD serial number . <s> Hopefully they will be honest enough to return the CD without making copies . <s> I just wanted to let everyone know ."
+  },
+  {
+    "id": "270-000618-EM.00",
+    "custodian_id": 270,
+    "date": "Fri, 03 Nov 2000 03:20:00 -0000",
+    "last_action": null,
+    "from": [
+      "Peter Federer",
+      "peter.federer@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Christian Schlegel",
+        "christian.schlegel@avocadoit.com"
+      ],
+      [
+        "Christoph Wicharz",
+        "christoph.wicharz@avocadoit.com"
+      ],
+      [
+        "Werner Hehl",
+        "werner.hehl@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "",
+    "content": "Dabei werden alle Dienstleistungen von Beratung \u00fcber Konzeption und Implementierung bis zum Betrieb \u00fcbernommen . \n <s> Die Services von BeMobile sollen sowohl die Bed\u00fcrfnisse mittelst\u00e4ndischer Unternehmen als auch die Anforderungen von Global Playern abdecken . <s> -- \n AvocadoIT"
+  },
+  {
+    "id": "167-010217-EM.00",
+    "custodian_id": 167,
+    "date": "Thu, 16 Nov 2000 02:48:00 -0000",
+    "last_action": "re",
+    "from": [
+      "John Schemena",
+      "jschemena@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Dan Baca",
+        "dbaca@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Mark Tracy",
+        "mjtracy@avocadoit.com"
+      ]
+    ],
+    "subject": "R&D Knowledge Transfer on # product",
+    "content": "That 's up to the trainers in R&D - Mark can this be done ? <s> It would mean extending the class until # pm"
+  },
+  {
+    "id": "060-004927-EM.00",
+    "custodian_id": 60,
+    "date": "Tue, 04 Sep 2001 10:01:00 -0000",
+    "last_action": null,
+    "from": [
+      "Srikanth Raghavan",
+      "sraghavan@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Rajeev Mohindra",
+        "rajeev@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Emds",
+        "emds@no-address.com"
+      ]
+    ],
+    "subject": "Will be in this afternoon",
+    "content": "All I 'll be in the office this afternoon . <s> I have a doctor 's appointment in the morning ."
+  },
+  {
+    "id": "167-005028-EM.00",
+    "custodian_id": 167,
+    "date": "Mon, 27 Nov 2000 19:04:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Tony Raj",
+      "traj@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mark Tracy",
+        "mjtracy@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "XML based config file",
+    "content": "Here is what Nihar and I discussed today .... <s> My recommendation on this : \n Writing out to an XML - based config file from the ERT is not an issue . <s> Maintaining that file will be an issue if it has to be written out by the ERT . <s> For example , it has to be updated if the appId is deleted , or the page is deleted , or if the entire project is deleted , or if a page is renamed , etc .. <s> The Admin tool has to do it anyway , whether it is for db to db copy ( which it currently does ) , or for db to file ( a future goal as described in C below ) , it should copy the config file at the destination . <s> Why not simply extend the functionality to also allow a create - so that the user can build a config file which is based on the most recent state , and is not stale ? <s> A couple of issues to consider : \n 1 ) The appID in the db is not automatically deleted if the project or page in the db is deleted . <s> This was the requirement at that time . \n <s> 2 ) How would the Admin tool know what to create if we also decide to allow copy of File System to File System ? <s> Thanks \n -Tony"
+  },
+  {
+    "id": "080-006847-EM.00",
+    "custodian_id": 80,
+    "date": "Thu, 08 Feb 2001 12:13:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Gene Garrett",
+      "gene.garrett@avocadoit.com"
+    ],
+    "to": [
+      [
+        "George Richard",
+        "george.richard@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Call Summary with SAP and SAP Labs on #",
+    "content": "fyi ."
+  },
+  {
+    "id": "165-001649-EM.00",
+    "custodian_id": 165,
+    "date": "Mon, 27 Nov 2000 11:59:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Kathy Chancellor",
+      "kchancellor@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mark Ricktor",
+        "mricktor@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "I have a holiday idea",
+    "content": "I like it , I 'll pass it on to the rest of the gang ."
+  },
+  {
+    "id": "108-001971-EM.00",
+    "custodian_id": 108,
+    "date": "Mon, 30 Apr 2001 07:08:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Peter Smialek",
+      "peter.smialek@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jeff Newman",
+        "jnewman@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Hello $ Your Counterparts ?",
+    "content": "Jeff , See below - I met Amit at the HP seminar in Chicago . \n <s> He has helped Larry target some mutual wireless # \n Looks like his counterpart is in CT . <s> We should meet him \n sometime soon when we are down that way - or he is in \n the Boston area ."
+  },
+  {
+    "id": "060-005210-EM.00",
+    "custodian_id": 60,
+    "date": "Mon, 09 Jul 2001 19:49:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Dondi Gaskill",
+      "dondi.gaskill@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Amitabh Sinha",
+        "amitabh@avocadoit.com"
+      ],
+      [
+        "Srikanth Raghavan",
+        "sraghavan@avocadoit.com"
+      ],
+      [
+        "Mahesh Rangamani",
+        "mahesh@avocadoit.com"
+      ],
+      [
+        "Prasad Krothapalli",
+        "prasad@avocadoit.com"
+      ],
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ],
+      [
+        "Dave Sulcer",
+        "dave_sulcer@yahoo.com"
+      ],
+      [
+        "Tony Raj",
+        "traj@avocadoit.com"
+      ],
+      [
+        "Deviprasad Malladi",
+        "dmalladi@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "unification of a $ href $ select $ input $ action",
+    "content": "Here are sketches of what I think the Editors would look like ."
+  },
+  {
+    "id": "154-009031-EM.00",
+    "custodian_id": 154,
+    "date": "Thu, 17 Feb 2000 12:54:00 -0000",
+    "last_action": null,
+    "from": [
+      "Susan Simmons",
+      "ssimmons@avocadoit.com"
+    ],
+    "to": [
+      [
+        "All Employees",
+        "all@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "New Phone System",
+    "content": "Good Afternoon All , I am happy to report that Phase II of the new telephone system installation is complete ! <s> Now , what does that mean ? <s> Well , it means that The new main telephone number for avocadoit has been officially changed to ( # ) # $ # . <s> From now on , you can give this number out if you wish your caller to reach you through the main switchboard . <s> The old main number has been re - routed to this new number so anyone who calls the old number will reach the new telephone system . <s> Additionally , each of you has your own direct dial number which is listed on your new telephone . <s> Your old telephone will be disconnected and removed from your desk by # p.m. on Friday . <s> If you have saved any voicemail on your old telephone , you will no longer have access to the messages after Friday . <s> So please listen to any saved messages and write any important information down . <s> By the way , your direct dial number is now listed in the global address list in Outlook ( along with everyone else 's , in case you are looking ) . <s> Your new telephone now has a voicemail account set up . <s> PLEASE be aware that this new voicemail system is part of a unified messaging system that will be more fully implemented in Phase III , but is partially installed now . <s> Effective immediately , all of your messages , BOTH voicemail AND email , are stored in your Outlook Inbox , and can be accessed BOTH from your telephone AND Outlook email inbox . <s> Voicemail messages will show up in your email box with a .wav file attachment . <s> At this time , you will probably not be able to open the file in email , but over the next week we hope to install the unified messaging software on your computer ( and speakers , if you do n't already have them ) , and then you will be able to play your voicemails on your computer ! <s> One issue that Mark Stewart , our phone installation specialist , has brought to my attention pertains to the number of saved messages that your voicemail box says you have . <s> This number reflects all voice and e - mail messages ( and fax messages in the future ) in your Outlook email inbox at the time you check your mail . <s> To minimize this number you should create a subfolder in your inbox and move old messages to there . <s> You may even create multiple folders for some organization . BEWARE . <s> If you delete these messages using the phone mail system , they will be deleted from your inbox . <s> Do n't worry however . <s> They will still be in your Deleted folder . <s> If you need help figuring out any of this , please call Jennifer and she will walk you through it . <s> To personalize your voicemail and to set it up for access only by you , please go through the self - guided set up procedure as follows : 1 ) Press the ' Voice Mail ' button on your phone \n 2 ) Follow the instructions given by the nice voicemail lady \n 3 ) Your temporary password is # \n # ) When asked , you will need to enter a new password of your choice . <s> This will need to be NUMBERS only and AT LEAST # digits , and can not begin with a ' # ' \n 5 ) Instruction cards will be provided in a few minutes . <s> If you have any technical difficulties setting up your voicemail , please send Mark Stewart an email describing the problem . <s> His troubleshooting team will get back to you tomorrow to help solve the problem . <s> If you absolutely ca n't wait until tomorrow , Jennifer or I may be able to help you . <s> The main fax number is still ( # ) # $ # , but will be changing in the next few days . <s> I will let you know when the new fax # goes live . <s> Thanks again for your patience during this phone system transition . <s> I hope you are aware of how much time and effort Mark Stewart , Phil Gonzales and Richard Yoza have put into this process . <s> We should all be sure to thank them when we see them ."
+  },
+  {
+    "id": "163-008881-EM.00",
+    "custodian_id": 163,
+    "date": "Fri, 08 Dec 2000 13:30:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Richard Yoza",
+      "ryoza@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Himmat Vansdadia",
+        "hvansdadia@avocadoit.com"
+      ],
+      [
+        "Craig Harper",
+        "craig.harper@avocadoit.com"
+      ],
+      [
+        "Michael Liang",
+        "mliang@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Steve Hirata",
+        "shirata@avocadoit.com"
+      ]
+    ],
+    "subject": "today - ip address ranges",
+    "content": "Before we get rid of the small DSL in the old office ( Megapath ) we need to make sure Jamie is o.k . <s> with the corporate website . <s> I think they are still hosting part of it . <s> It has nothing to do with the DSL , just that we are using them as a hosting service ."
+  },
+  {
+    "id": "068-000647-EM.00",
+    "custodian_id": 68,
+    "date": "Tue, 22 May 2001 12:01:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Elba Linscott",
+      "elinscott@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Lisa Chui",
+        "lchui@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Bithi 's Baby shower",
+    "content": "Lisa , the e - mail meant to go to you ... :-)"
+  },
+  {
+    "id": "061-000863-EM.00",
+    "custodian_id": 61,
+    "date": "Fri, 06 Apr 2001 09:19:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Don Giesen",
+      "don.giesen@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mike Richman",
+        "mike.richman@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Providian",
+    "content": "Dig into this one ... <s> Aether does provisioning of devices and may not have done anything on the appl side ."
+  },
+  {
+    "id": "089-005856-EM.00",
+    "custodian_id": 89,
+    "date": "Tue, 26 Dec 2000 17:38:00 -0000",
+    "last_action": null,
+    "from": [
+      "Hung Hua",
+      "hhua@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Steve Hirata",
+        "shirata@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Go2 report",
+    "content": ""
+  },
+  {
+    "id": "245-004457-EM.00",
+    "custodian_id": 245,
+    "date": "Thu, 21 Feb 2002 18:12:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Sharon Yogi",
+      "syogi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Wilhan Martono",
+        "wmartono@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Cm_3.5_Alwaysontest",
+        "cm_3.5_alwaysontest@no-address.com"
+      ],
+      [
+        "R&D Managers",
+        "rd.managers@no-address.com"
+      ],
+      [
+        "Offline Development",
+        "offline.development@no-address.com"
+      ],
+      [
+        "Cm Team",
+        "cm.team@no-address.com"
+      ],
+      [
+        "Yuyu Chen",
+        "yuyu.chen@avocadoit.com"
+      ],
+      [
+        "Lisa Chui",
+        "lchui@avocadoit.com"
+      ],
+      [
+        "Srinivas Peddada",
+        "speddada2@avocadoit.com"
+      ]
+    ],
+    "subject": "OSA Test Result for # Palladium Build",
+    "content": "again , bad installed version on sharon2"
+  },
+  {
+    "id": "233-009939-EM.00",
+    "custodian_id": 233,
+    "date": "Fri, 18 May 2001 02:12:00 -0000",
+    "last_action": null,
+    "from": [
+      "",
+      "monitoretrade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "monitoretrade@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "App Failure : appid = testetraderim EPXML $ home.aml Script = session_3000010",
+    "content": "Last occurrence : <s> The problem has been reported ."
+  },
+  {
+    "id": "188-003698-EM.00",
+    "custodian_id": 188,
+    "date": "Wed, 07 Mar 2001 09:55:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Philip Oconnell",
+      "philip.oconnell@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Don Giesen",
+        "don.giesen@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "jet blue",
+    "content": "Put two calls into sk abt meeting friday as well as having the korean team and decision maker to CA . <s> Jet blue have said let 's meet to hammer out the details of the proposal so we can move froward . <s> This apparently will come out of the cio s budget \n -------------------------- \n Sent from my BlackBerry Wireless Handheld ( www.BlackBerry.net )"
+  },
+  {
+    "id": "173-001105-EM.00",
+    "custodian_id": 173,
+    "date": "Tue, 06 Nov 2001 18:18:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Nora Nagy",
+      "nnagy@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Tony Raj",
+        "traj@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "? on CI",
+    "content": "Actually , you did n't have to do a show children on the other branches to see them , they would already be there when you tried to expand the branch ."
+  },
+  {
+    "id": "031-001019-EM.00",
+    "custodian_id": 31,
+    "date": "Fri, 06 Oct 2000 08:01:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Bryan Wiens",
+      "bryan.wiens@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Anthony Tarsia",
+        "anthony.tarsia@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Confirm Meeting",
+    "content": "Even if I can not get a live connection ( phone or LAN ) , I have the E*TRADE html pages saved on my laptop . <s> I can demonstrate the tool that way as well . <s> But , it is always more convincing if we can do it LIVE ."
+  },
+  {
+    "id": "239-003676-EM.00",
+    "custodian_id": 239,
+    "date": "Sun, 09 Jul 2000 06:54:00 -0000",
+    "last_action": "re",
+    "from": [
+      "David Chan",
+      "dchan@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Alex Tran",
+        "atran@avocadoit.com"
+      ],
+      [
+        "Andy Wong",
+        "awong@avocadoit.com"
+      ],
+      [
+        "Robert Moore",
+        "rmoore@avocadoit.com"
+      ],
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ],
+      [
+        "Shawn Swanson",
+        "sswanson@avocadoit.com"
+      ],
+      [
+        "David Chan",
+        "dchan@avocadoit.com"
+      ],
+      [
+        "Alex Tran",
+        "atran@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ],
+      [
+        "Debbie Margulies",
+        "dmargulies@avocadoit.com"
+      ],
+      [
+        "Giselle Bisson",
+        "gbisson@avocadoit.com"
+      ],
+      [
+        "Prakash Iyer",
+        "piyer@avocadoit.com"
+      ],
+      [
+        "Lisa Quaglietti",
+        "lisaq@avocadoit.com"
+      ],
+      [
+        "Jim Donnelly",
+        "jdonnelly@avocadoit.com"
+      ]
+    ],
+    "subject": "Wednesday Marketing Meeting - key points",
+    "content": "Everyone : Let 's get coordinated with Marketing to make sure that they 're aware of this way ahead of time . <s> Also , if there are any dependencies with R&D $ AE , Client Services or Sales , let 's let them know right away , as well ."
+  },
+  {
+    "id": "277-007764-EM.00",
+    "custodian_id": 277,
+    "date": "Fri, 28 Feb 2003 14:11:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Nadir Nawabzada",
+      "nnawabzada@avocadoit.com"
+    ],
+    "to": [
+      [
+        "John Mccann",
+        "john.mccann@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "P & G mtg with Jill Collord and Sean Deschene",
+    "content": "That 's OK . <s> Amy Moore is no longer with AvocadoIT , but I think these guys have her as delegate in their Outlook . <s> So you can ignore this and I 'll tell them to remove her name . <s> Thanks Nadir"
+  },
+  {
+    "id": "084-012558-EM.00",
+    "custodian_id": 84,
+    "date": "Wed, 08 Aug 2001 11:22:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Peter Federer",
+      "peter.federer@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Glenn Pereira",
+        "gpereira@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "",
+    "content": "Yes , and # pm equals 0am CET so Outlook moved it to thursday ."
+  },
+  {
+    "id": "189-005468-EM.00",
+    "custodian_id": 189,
+    "date": "Wed, 28 Jun 2000 15:11:00 -0000",
+    "last_action": null,
+    "from": [
+      "Paiman Komeilizadeh",
+      "pkomeilizadeh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Kathy Chancellor",
+        "kchancellor@avocadoit.com"
+      ],
+      [
+        "Susan Simmons",
+        "ssimmons@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Payroll will roll out at # pm today",
+    "content": ""
+  },
+  {
+    "id": "144-005137-EM.00",
+    "custodian_id": 144,
+    "date": "Fri, 25 Aug 2000 13:29:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Mahesh Rangamani",
+      "mahesh@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Dan Baca",
+        "dbaca@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Liberate",
+    "content": "For liberate it will be html . <s> I think they have a few extensions . <s> Thanks , \n Mahesh"
+  },
+  {
+    "id": "093-002222-EM.00",
+    "custodian_id": 93,
+    "date": "Mon, 12 Feb 2001 13:31:00 -0000",
+    "last_action": null,
+    "from": [
+      "Helen Spade",
+      "hspade@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Richard Wadsworth",
+        "richard.wadsworth@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Sun $ CGEY",
+    "content": "Hello Richard , Just a heads up . <s> You might be getting a call from Samir . <s> He handles the CGEY relationship for Sun . <s> He has asked for a European contact . <s> I have provided him your name $ email and Ulli . <s> CGEY and Sun are doing some good stuff in the market around wireless . <s> They have strong ties to Oracle but Samir is willing to get us integrated if he can . <s> Regards , \n Helen"
+  },
+  {
+    "id": "076-003008-EM.00",
+    "custodian_id": 76,
+    "date": "Tue, 09 Apr 2002 16:43:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Sharon Yogi",
+      "syogi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Nadir Nawabzada",
+        "nnawabzada@avocadoit.com"
+      ],
+      [
+        "Fernand Braganza",
+        "fernand.braganza@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ],
+      [
+        "Rajeev Mohindra",
+        "rajeev@avocadoit.com"
+      ],
+      [
+        "Amitabh Sinha",
+        "amitabh@avocadoit.com"
+      ]
+    ],
+    "subject": "ServletExec version",
+    "content": "Hi Nadir $ Fernand - \n looks like it 's # \n do you need a win2k box ? <s> thanks , sharon"
+  },
+  {
+    "id": "160-000219-EM.00",
+    "custodian_id": 160,
+    "date": "Mon, 09 Jul 2001 15:55:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Sharon Yogi",
+      "syogi@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Miyuki Goldman",
+        "miyuki.goldman@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Bug #",
+    "content": ""
+  },
+  {
+    "id": "089-003104-EM.00",
+    "custodian_id": 89,
+    "date": "Tue, 25 Sep 2001 14:36:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Steve Hirata",
+      "shirata@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Richard Yoza",
+        "ryoza@avocadoit.com"
+      ],
+      [
+        "Michael Liang",
+        "mliang@avocadoit.com"
+      ],
+      [
+        "Roopak Parikh",
+        "roopak@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Operations",
+        "operations@avocadoit.com"
+      ]
+    ],
+    "subject": "Looks like the E*Trade https # server has crashed ! ! !",
+    "content": "Both servers have at least # sessions with active sessions increasing $ decreasing . <s> Unless we are certain , do not restart . <s> If we suspect this server , then start rejecting sessions from the Admin tool ."
+  },
+  {
+    "id": "076-002308-EM.00",
+    "custodian_id": 76,
+    "date": "Mon, 01 Apr 2002 12:43:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Craig Harper",
+      "craig.harper@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Fernand Braganza",
+        "fernand.braganza@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "check out gamefaqs today",
+    "content": "look at slashdot too . <s> that one article about programming languages is to damn funny I wonder how many other sites there are out there that took the # to heart :}"
+  },
+  {
+    "id": "167-004159-EM.00",
+    "custodian_id": 167,
+    "date": "Wed, 22 Nov 2000 10:46:00 -0000",
+    "last_action": null,
+    "from": [
+      "Shashi Vitthal",
+      "shashi.vitthal@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mark Tracy",
+        "mjtracy@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Working from home until # pm",
+    "content": "I will not be available after # pm ."
+  },
+  {
+    "id": "024-004779-EM.00",
+    "custodian_id": 24,
+    "date": "Wed, 13 Oct 1999 07:34:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Barry Phillips",
+      "bphillips@avocadoit.com"
+    ],
+    "to": [
+      [
+        "",
+        "gisellian@aol.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ]
+    ],
+    "subject": "Red Herring : NDA # Invitation",
+    "content": "I sent them Bio ( actually resume ) and funding information . <s> I told them that we would prefer not to disclose customers at this point . <s> They asked about competition and I said none overall , some in specific devices . <s> You might want to start creating Bio 's for the executive team for future events . <s> All I could give them under such short notice was resumes . <s> Hopefully that will be OK . <s> I also asked to review our companies ' blurb . <s> I want to make sure we are positioned correctly without giving up too much information . <s> We need to put together a meeting where we discuss how much we are going to disclose . Barry"
+  },
+  {
+    "id": "157-001508-EM.00",
+    "custodian_id": 157,
+    "date": "Tue, 11 Dec 2001 09:16:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Richard Yoza",
+      "ryoza@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Mike Richman",
+        "mike.richman@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Draft of E*Trade bank project schedule",
+    "content": "sorry I did n't copy you earlier . <s> i 'm off to the airport , ca n't talk . <s> this plan was slightly revised so the number do n't quite match to the ae+pm hours I sent but they 're close enough ."
+  },
+  {
+    "id": "016-000755-EM.00",
+    "custodian_id": 16,
+    "date": "Thu, 01 Mar 2001 07:58:00 -0000",
+    "last_action": null,
+    "from": [
+      "Barry Phillips",
+      "bphillips@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Venk Shukla",
+        "shukla@avocadoit.com"
+      ],
+      [
+        "Prakash Iyer",
+        "piyer@avocadoit.com"
+      ],
+      [
+        "Amitabh Sinha",
+        "amitabh@avocadoit.com"
+      ],
+      [
+        "Glenn Pereira",
+        "gpereira@avocadoit.com"
+      ],
+      [
+        "Ron Silverton",
+        "rsilverton@avocadoit.com"
+      ],
+      [
+        "Alex Tran",
+        "atran@avocadoit.com"
+      ],
+      [
+        "Ryan Glover",
+        "rglover@avocadoit.com"
+      ],
+      [
+        "Donna Candelori",
+        "dcandelori@candelori.com"
+      ],
+      [
+        "",
+        "msdimaria@aol.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "Actions and Notes : Press Tour Meeting",
+    "content": "I have moved all the information on the deliverables to this E - mail . <s> Please review and be prepared to provide the action associated with your deliverable at the next meeting . <s> Also , please let me know if there is something that we have missed or left off . <s> We have a good quorum on the analysts that we are targeting , but will also invite Yankee and Summit \n Glenn will take responsibility for presentations instead of Prakash $ Amitabh \n Glenn will also take responsibility for the service bureau story Actions : Tool and product demo ( Amitabh ): <s> Need status at or before the next meeting . <s> Coordinate connectors with Prakash \n Service bureau story ( Glenn ): Need status at or before the next meeting . <s> Coordinate with Amit any Accenture involvement \n Ideal platform features list ( Ron ): Need draft before meeting on March # \n Ideal platform graph ( Ron ): <s> Need draft before meeting on March # \n <s> Positioning WRT to XSL ( Ron ): <s> Need draft before meeting on March # . <s> Prakash $ Amitabh to review $ comment \n Formal invitee letter sent from Venk ( Ryan $ Donna ): Need to send before meeting next week \n Line up loyal customers ( Barry ): Need status at the next meeting . \n <s> Script customers ( Barry ): Start once customers agree \n Line up loyal partners ( Barry ): <s> Need status at the next meeting \n Script partners ( Barry ): Start once partners agree \n Scenarios for market disruption presentation ( Glenn ): <s> Update Paytrust case study on XML \n New analyst quotes ( Ron ): Need status at the next meeting \n Press Kit ( Ryan ): <s> Need to see draft material at the next meeting \n Travel and accommodations ( Ryan ): <s> Provide status \n Technical whitepaper ( Amitabh ): <s> Provide outline at March # meeting \n Security whitepaper ( Alex ): Provide draft at March # meeting \n New category whitepaper ( Barry ): <s> Provide outline at March # meeting \n Presentation : ) <s> Provide status \n Presentation graphics ( Barry ): <s> Provide vendor that can provide all presentations with a graphic facelift Thanks , \n Barry Barry Phillips \n Director , Customer Marketing \n #"
+  },
+  {
+    "id": "245-005888-EM.00",
+    "custodian_id": 245,
+    "date": "Fri, 25 Jan 2002 13:26:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Geoff Vona",
+      "geoff.vona@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Sharon Yogi",
+        "syogi@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Vinayak Dhanapune",
+        "vdhanapune@avocadoit.com"
+      ],
+      [
+        "Daisy Guo",
+        "daisy.guo@avocadoit.com"
+      ],
+      [
+        "Ravikumar Palanisamy",
+        "ravikumar.palanisamy@avocadoit.com"
+      ],
+      [
+        "Sreenivas Madiraju",
+        "smadiraju@avocadoit.com"
+      ],
+      [
+        "Keith Ritchie",
+        "keith.ritchie@avocadoit.com"
+      ]
+    ],
+    "subject": "installer has # options for adapter type - should there be #",
+    "content": "This is unresolved . <s> Having all three is the safer option for now . <s> The reason this is unresolved is : \n ActiveX works , but may require Thin Client , which is an issue for Japan . <s> We 're implementing a serialized COM adapter just in case we need it . <s> It is n't clear ( yet ) that the COM adapter will be usable . <s> # % chance we 'll ship the COM adapter , <s> # % chance it wo n't be shippable ."
+  },
+  {
+    "id": "267-007129-EM.00",
+    "custodian_id": 267,
+    "date": "Thu, 13 Jul 2000 18:41:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Rajeev Mohindra",
+      "rajeev@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Ron Silverton",
+        "rsilverton@avocadoit.com"
+      ],
+      [
+        "Venk Shukla",
+        "shukla@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "Executive",
+        "executive@avocadoit.com"
+      ]
+    ],
+    "subject": "Andy Seybold on AvocadoIT",
+    "content": "Comment : \n ' often too much emphasis placed on converting existing Web pages for handheld devices and not enough thought given to better navigation paths ... <s> This type of navigation needs to be added because it is not usually available on the normal Web pages . <s> ' Response : \n Good point . <s> That 's how you differentiate between a new kid on the block from a mature enterprise product $ ASP company that \n delivers quality apps . <s> At AvocadoIT , having gone through this evolving process I can say that it takes some product maturity \n to reach a point when one can develop excellent UI for wireless applications . <s> The goal at EP is to deliver the very best UI for a \n given app - this at times requires us to follow a different navigation path than the one on the Web site , present data from multiple \n html pages into one screen etc . <s> The planned product support of cookies ( the thing Ron in pointing at ) and user persistent data \n will further enhance this capability . Rajeev"
+  },
+  {
+    "id": "037-000994-EM.00",
+    "custodian_id": 37,
+    "date": "Thu, 31 Aug 2000 09:35:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Mitch Stewart",
+      "mitch.stewart@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Chris Longstaffe",
+        "chris.longstaffe@avocadoit.com"
+      ],
+      [
+        "Helen Spade",
+        "hspade@avocadoit.com"
+      ],
+      [
+        "Ruyben Seth",
+        "ruyben.seth@avocadoit.com"
+      ],
+      [
+        "Matt Moore",
+        "matt.moore@avocadoit.com"
+      ],
+      [
+        "Toni Oliveria",
+        "toni.oliveria@avocadoit.com"
+      ],
+      [
+        "Emma Fowler",
+        "emma.fowler@avocadoit.com"
+      ],
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ],
+      [
+        "Jim Donnelly",
+        "jdonnelly@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "",
+        "cjohnson@channelwave.com"
+      ]
+    ],
+    "subject": "ChannelWave Weekly Status Report",
+    "content": "Here is the status report from Channelwave . CJ , Please note that we would like you to include all of these people on your future communications . <s> Thanks !"
+  },
+  {
+    "id": "203-002371-EM.00",
+    "custodian_id": 203,
+    "date": "Fri, 30 Jun 2000 09:18:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Robert Moore",
+      "rmoore@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Kumi Thiruchelvam",
+        "kumi@avocadoit.com"
+      ]
+    ],
+    "cc": [
+      [
+        "David Chan",
+        "dchan@avocadoit.com"
+      ],
+      [
+        "Rene Romain",
+        "rromain@avocadoit.com"
+      ]
+    ],
+    "subject": "HP Europe Delegate Meeting",
+    "content": "Kumi , I had not seen the story . <s> Thanks for the link . <s> They are not using our technology in those servers ."
+  },
+  {
+    "id": "205-004980-EM.00",
+    "custodian_id": 205,
+    "date": "Tue, 09 Jan 2001 11:30:00 -0000",
+    "last_action": null,
+    "from": [
+      "Ryan Glover",
+      "rglover@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Barry Phillips",
+        "bphillips@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "UpShot case study - status",
+    "content": "FYI - UpShot is still in the process of identifying which customers are using their wireless service offering and have not even begun writing the case studies -- this explains Paul 's ( UpShot ) lack of response . <s> Paul could not even give an estimated timeline for completion . <s> i proposed to Paul that we want to write a case study on UpShot that includes a piece on UpShot 's customers using the service ( we would leverage UpShot 's case study for this piece ) . <s> That said , i see we have two options : - move forward with an UpShot case study in which we interview Malcolm Webb and then add the UpShot customer piece in at a later time . \n <s> - wait until UpShot begins working on / completes their case study and then interview Malcolm and weave the # pieces together into our own case study . <s> not sure which approach makes more sense from the point of view of our writer . <s> ( btw , who should write it -- Doni or Ron ? ) <s> what is the urgency for the UpShot case study ? <s> i think we can afford to wait while we still have America West and E*TRADE case studies in the pipe ."
+  },
+  {
+    "id": "008-009094-EM.00",
+    "custodian_id": 8,
+    "date": "Wed, 07 Feb 2001 13:24:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Jaime Mcneely",
+      "jmcneely@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Amy Moore",
+        "amy.moore@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "InfoSec Breakfast Seminar",
+    "content": ""
+  },
+  {
+    "id": "258-000736-EM.00",
+    "custodian_id": 258,
+    "date": "Tue, 21 Nov 2000 10:52:00 -0000",
+    "last_action": "re",
+    "from": [
+      "Toni Oliveria",
+      "toni.oliveria@avocadoit.com"
+    ],
+    "to": [
+      [
+        "Jamie Proctor",
+        "jproctor@goamerica.net"
+      ]
+    ],
+    "cc": [
+      [
+        "Fortunata Hermoso",
+        "fortunata.hermoso@avocadoit.com"
+      ],
+      [
+        "Trish Lady",
+        "tlady@avocadoit.com"
+      ],
+      [
+        "Toni Oliveria",
+        "toni.oliveria@avocadoit.com"
+      ],
+      [
+        "Darshan Patel",
+        "dpatel@avocadoit.com"
+      ],
+      [
+        "Ravi Pachipala",
+        "rpachipala@avocadoit.com"
+      ]
+    ],
+    "subject": "Go America Site Mobilization Status and Palm Application for Salesforce.com ..",
+    "content": "Hi Jaime , Ok $ just heard back from Darshan .. see his update below .. <s> Darshan : Please do send Jaime ( et all @GoAmerica ) the necessary pqa when you have it ready . <s> Thanks , \n Toni --- \n We rolled out the updated Salesforce application last night . <s> GoAmerica will not be able to access the application with the current PQA they have . <s> We are still confirming a couple of items with Salesforce right now , after that we will be sending them the new PQA . <s> We can send a copy to GoAmerica right after we send it to Salesforce . <s> Can you pass this information on to GoAmerica for me ?"
+  },
+  {
+    "id": "053-006787-EM.00",
+    "custodian_id": 53,
+    "date": "Tue, 31 Oct 2000 10:55:00 -0000",
+    "last_action": "fw",
+    "from": [
+      "Philip Oconnell",
+      "philip.oconnell@avocadoit.com"
+    ],
+    "to": [
+      [
+        "David Marcus",
+        "david.marcus@avocadoit.com"
+      ]
+    ],
+    "cc": [],
+    "subject": "NDA from Switchboard.com",
+    "content": "Hi Dave , Can you review and sign the attached NDA . <s> The information flow is from us to them . <s> We will be demonstrating the tool . --Philip"
+  }
+]

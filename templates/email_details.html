@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Analysis Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4299e1;
+            --danger-color: #f56565;
+            --success-color: #48bb78;
+            --neutral-color: #a0aec0;
+            --background-color: #f7fafc;
+            --card-background: rgba(255, 255, 255, 0.9);
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #ffffff 0%, var(--primary-color) 100%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 2rem;
+            overflow: hidden;
+        }
+
+        .dashboard {
+            max-width: 1400px;
+            height: calc(100vh - 4rem);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-background);
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .card-header {
+            padding: 1.5rem;
+            background: var(--card-background);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .card-header h1 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .card-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+        }
+
+        /* Custom Scrollbar */
+        .card-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .card-content::-webkit-scrollbar-track {
+            background: var(--background-color);
+        }
+
+        .card-content::-webkit-scrollbar-thumb {
+            background-color: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        .email-details {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .detail-item {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+        }
+
+        .detail-item:last-child {
+            border-bottom: none;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        .metrics-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .metric {
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .categories-section {
+            margin-top: 2rem;
+        }
+
+        .categories-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .category {
+            background-color: var(--background-color);
+            border-radius: 1rem;
+            padding: 0.75rem 1rem;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .category.active {
+            background-color: #fed7d7;
+            color: var(--danger-color);
+        }
+
+        .scroll-buttons {
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+            display: flex;
+            gap: 0.5rem;
+            z-index: 20;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.5rem;
+            border-radius: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .scroll-button {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .scroll-button:hover {
+            background: #3182ce;
+            transform: translateY(-1px);
+        }
+
+        .scroll-button:disabled {
+            background: var(--neutral-color);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .scroll-button svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            margin-top: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        .back-button:hover {
+            background: #3182ce;
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 1024px) {
+            body {
+                padding: 1rem;
+                overflow: auto;
+            }
+
+            .dashboard {
+                height: auto;
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                height: 600px; /* Fixed height on mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-header,
+            .card-content {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Email Details Card -->
+        <div class="card">
+            <div class="card-header">
+                <h1>Email Details</h1>
+            </div>
+            
+            <div class="card-content" id="emailContent">
+                <div class="email-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Subject</span>
+                        <span class="detail-content">{{ email.subject }}</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">From</span>
+                        <span class="detail-content">{{ email.sender_name }}</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">To</span>
+                        <span class="detail-content">{{ email.recipient_name }}</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Timestamp</span>
+                        <span class="detail-content">{{ email.timestamp }}</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Content</span>
+                        <div class="content-box">{{ email.content }}</div>
+                    </div>
+                </div>
+
+                <a href="{{ url_for('view_classifications') }}" class="back-button">Back to Results</a>
+            </div>
+
+            <div class="scroll-buttons">
+                <button class="scroll-button" id="emailScrollTop" title="Scroll to top">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                    </svg>
+                </button>
+                <button class="scroll-button" id="emailScrollBottom" title="Scroll to bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Analysis Results Card -->
+        <div class="card">
+            <div class="card-header">
+                <h1>Analysis Results</h1>
+            </div>
+
+            <div class="card-content" id="analysisContent">
+                <div class="metrics-container">
+                    <div class="metric">
+                        <div class="metric-value" style="color: {{ '#48bb78' if email.non_toxic else '#f56565' }}">
+                            {% if email.non_toxic %}
+                                <span style="color: var(--success-color)">Non-Toxic</span>
+                            {% else %}
+                                <span style="color: var(--danger-color)">Toxic</span>
+                            {% endif %}
+                        </div>
+                        <div class="metric-label">Classification</div>
+                    </div>
+                </div>
+
+                {% if not email.non_toxic %}
+                <div class="categories-section">
+                    <h3>Toxicity Analysis</h3>
+                    <div class="categories-grid">
+                        {% for type in [
+                            'Impolite: Sarcasm',
+                            'Impolite: Stereotype',
+                            'Impolite: Forced teaming',
+                            'Impolite: Authoritarian',
+                            'Impolite: Rude',
+                            'Impolite: Trivialising Sensitive topics',
+                            'Impolite: Lack of empathy',
+                            'Negative Gossip: Mocking',
+                            'Negative Gossip: Complain',
+                            'Offensive: Profanity',
+                            'Offensive: Discrimination',
+                            'Offensive: Bullying',
+                            'Offensive: Violence',
+                            'Offensive: Harassment',
+                            'Passive-aggressive',
+                            'Condescending',
+                            'Microaggression',
+                            'Other'
+                        ] %}
+                            {% set main_category = type.split(':')[0]|trim %}
+                            {% set sub_category = type.split(':')[1]|trim if ':' in type else none %}
+                            {% set value = email.toxic[main_category][sub_category] if ':' in type and main_category in email.toxic and sub_category else email.toxic[type] if type in email.toxic else 0 %}
+                            
+                            <div class="category {{ 'active' if value == 1 }}">
+                                <div class="category-icon" style="background-color: {{ '#f56565' if value == 1 else '#a0aec0' }}"></div>
+                                <span>{{ type }}</span>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="categories-section">
+                    <h3>Workplace Relationship Analysis</h3>
+                    <div class="categories-grid">
+                        {% for type in [
+                            'professional_cordial',
+                            'professional_neutral',
+                            'professional_toxic',
+                            'playful_banter',
+                            'Collegial',
+                            'Mentor_Mentee',
+                            'Cross_Functional_Partnerships',
+                            'Too_personal'
+                        ] %}
+                            {% set value = email.relationship_analysis.relationship_analysis[type] if type in email.relationship_analysis.relationship_analysis else 0 %}
+                            <div class="category {{ 'active' if value == 1 }}">
+                                <div class="category-icon" style="background-color: {{ '#4299e1' if value == 1 else '#a0aec0' }}"></div>
+                                <span>{{ type|replace('_', ' ')|title }}</span>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                {% if email.harmful_phrases %}
+                <div class="categories-section">
+                    <h3>Harmful Phrases</h3>
+                    <ul>
+                        {% for phrase in email.harmful_phrases %}
+                        <li>{{ phrase }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if email.explanation %}
+                <div class="categories-section">
+                    <h3>Explanation</h3>
+                    <div class="explanation">{{ email.explanation }}</div>
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="scroll-buttons">
+                <button class="scroll-button" id="analysisScrollTop" title="Scroll to top">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                    </svg>
+                </button>
+                <button class="scroll-button" id="analysisScrollBottom" title="Scroll to bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Setup scroll functionality for both containers
+            function setupScrollButtons(contentId, topButtonId, bottomButtonId) {
+                const content = document.getElementById(contentId);
+                const topButton = document.getElementById(topButtonId);
+                const bottomButton = document.getElementById(bottomButtonId);
+
+                function updateButtonStates() {
+                    const isAtTop = content.scrollTop === 0;
+                    const isAtBottom = Math.abs(content.scrollHeight - content.clientHeight - content.scrollTop) < 1;
+                    
+                    topButton.disabled = isAtTop;
+                    bottomButton.disabled = isAtBottom;
+
+                    // Update button opacity based on state
+                    topButton.style.opacity = isAtTop ? '0.5' : '1';
+                    bottomButton.style.opacity = isAtBottom ? '0.5' : '1';
+                }
+
+                // Scroll event listener
+                content.addEventListener('scroll', updateButtonStates);
+
+                // Scroll to top button click handler
+                topButton.addEventListener('click', () => {
+                    content.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+
+                // Scroll to bottom button click handler
+                bottomButton.addEventListener('click', () => {
+                    content.scrollTo({
+                        top: content.scrollHeight,
+                        behavior: 'smooth'
+                    });
+                });
+
+                // Initial button state
+                updateButtonStates();
+
+                // Update button states when content changes
+                const resizeObserver = new ResizeObserver(() => {
+                    updateButtonStates();
+                });
+                resizeObserver.observe(content);
+
+                // Show/hide scroll buttons based on content height
+                function updateScrollButtonsVisibility() {
+                    const buttons = content.parentElement.querySelector('.scroll-buttons');
+                    if (content.scrollHeight > content.clientHeight) {
+                        buttons.style.display = 'flex';
+                    } else {
+                        buttons.style.display = 'none';
+                    }
+                }
+
+                // Initial visibility check
+                updateScrollButtonsVisibility();
+
+                // Update visibility on resize
+                window.addEventListener('resize', updateScrollButtonsVisibility);
+            }
+
+            // Initialize scroll buttons for both containers
+            setupScrollButtons('emailContent', 'emailScrollTop', 'emailScrollBottom');
+            setupScrollButtons('analysisContent', 'analysisScrollTop', 'analysisScrollBottom');
+
+            // Error handling for scroll functionality
+            function handleScrollError(error) {
+                console.error('Scroll error:', error);
+                // Reset scroll position if an error occurs
+                const containers = document.querySelectorAll('.card-content');
+                containers.forEach(container => {
+                    container.scrollTop = 0;
+                });
+            }
+
+            // Add error handling to scroll events
+            document.querySelectorAll('.card-content').forEach(container => {
+                container.addEventListener('scroll', (event) => {
+                    try {
+                        event.target.scrollTop = Math.max(0, event.target.scrollTop);
+                    } catch (error) {
+                        handleScrollError(error);
+                    }
+                });
+            });
+
+            // Handle window resize for responsive layout
+            let resizeTimeout;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    document.querySelectorAll('.card-content').forEach(container => {
+                        const buttons = container.parentElement.querySelector('.scroll-buttons');
+                        const needsScroll = container.scrollHeight > container.clientHeight;
+                        buttons.style.display = needsScroll ? 'flex' : 'none';
+                    });
+                }, 100);
+            });
+
+            // Ensure proper initialization on load
+            window.addEventListener('load', () => {
+                document.querySelectorAll('.card-content').forEach(container => {
+                    const buttons = container.parentElement.querySelector('.scroll-buttons');
+                    if (container.scrollHeight <= container.clientHeight) {
+                        buttons.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Classifier</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        #progressContainer {
+            width: 100%;
+            background-color: #ddd;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+
+        #progressBar {
+            width: 0%;
+            height: 30px;
+            background-color: #4CAF50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+            border-radius: 4px;
+        }
+
+        #status, #timing {
+            margin-top: 10px;
+            font-family: monospace;
+        }
+
+        #results {
+            margin-top: 20px;
+            white-space: pre-wrap;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Classifier</h1>
+    <button id="classifyButton">Start Classification</button>
+
+    <div id="progressContainer">
+        <div id="progressBar">0%</div>
+    </div>
+
+    <div id="timing"></div>
+    <div id="status"></div>
+
+    <h2>Results:</h2>
+    <div id="results"></div>
+
+    <script>
+        const socket = io();
+        const classifyButton = document.getElementById('classifyButton');
+
+        classifyButton.addEventListener('click', () => {
+            classifyButton.disabled = true;
+            document.getElementById('progressBar').style.width = '0%';
+            document.getElementById('progressBar').innerText = '0%';
+            document.getElementById('status').innerText = '';
+            document.getElementById('timing').innerText = '';
+            document.getElementById('results').innerText = 'Processing...';
+            socket.emit('start_classification');
+        });
+
+        socket.on('progress_update', (data) => {
+            const progress = data.progress.toFixed(2);
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = progress + '%';
+            progressBar.innerText = progress + '%';
+
+            // Format timing information to match tqdm
+            const elapsed = formatTime(data.elapsed);
+            const remaining = formatTime(data.remaining);
+            
+            // Calculate speed correctly: total_emails / total_time
+            const speed = (data.total / data.elapsed).toFixed(2);
+            
+            const timingText = `${data.current}/${data.total} [${elapsed}<${remaining}, ${speed}it/s]`;
+            document.getElementById('timing').innerText = timingText;
+        });
+
+        function formatTime(seconds) {
+            if (seconds < 60) {
+                return seconds.toFixed(2) + 's';
+            } else if (seconds < 3600) {
+                const minutes = Math.floor(seconds / 60);
+                const secs = (seconds % 60).toFixed(2);
+                return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(5, '0')}`;
+            } else {
+                const hours = Math.floor(seconds / 3600);
+                const minutes = Math.floor((seconds % 3600) / 60);
+                const secs = (seconds % 60).toFixed(2);
+                return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(5, '0')}`;
+            }
+        }
+
+        socket.on('classification_complete', (data) => {
+            document.getElementById('status').innerText = data.message;
+            document.getElementById('results').innerText = JSON.stringify(data.results, null, 2);
+            classifyButton.disabled = false;
+        });
+
+        socket.on('error', (data) => {
+            document.getElementById('status').innerText = data.message;
+            document.getElementById('results').innerText = 'An error occurred';
+            classifyButton.disabled = false;
+        });
+    </script>
+</body>
+</html>

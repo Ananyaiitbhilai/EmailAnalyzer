@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Analysis Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #4299e1;
+            --secondary-color: #2c5282;
+            --success-color: #48bb78;
+            --danger-color: #f56565;
+            --background-color: #f7fafc;
+            --card-background: white;
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f6f9fc 0%, #edf2f7 100%);
+            color: var(--text-primary);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: all 0.2s;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-1px);
+        }
+
+        .back-button i {
+            margin-right: 0.5rem;
+        }
+
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--card-background);
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .stat-card h3 {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card p {
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .visualization-card {
+            background: var(--card-background);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .visualization-card h2 {
+            color: var(--text-primary);
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--background-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .summary-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-card {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Email Analysis Dashboard</h1>
+            <a href="{{ url_for('view_classifications') }}" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Results
+            </a>
+        </div>
+
+        <div class="summary-stats">
+            <div class="stat-card">
+                <h3>Total Emails</h3>
+                <p>{{ summary.total_emails }}</p>
+            </div>
+            <div class="stat-card">
+                <h3>Toxic Emails</h3>
+                <p>{{ summary.toxic_emails }}</p>
+            </div>
+            <div class="stat-card">
+                <h3>Toxicity Rate</h3>
+                <p>{{ "%.1f"|format(summary.toxic_percentage) }}%</p>
+            </div>
+            {% if summary.most_toxic_sender %}
+            <div class="stat-card">
+                <h3>Most Toxic Sender</h3>
+                <p style="font-size: 1.25rem;">{{ summary.most_toxic_sender.split('<')[0] }}</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="visualization-card">
+            <h2><i class="fas fa-chart-pie"></i> Overall Toxicity Distribution</h2>
+            <div id="toxicityPie"></div>
+        </div>
+
+        <div class="visualization-card">
+            <h2><i class="fas fa-chart-bar"></i> Toxicity Categories Distribution</h2>
+            <div id="categoryBar"></div>
+        </div>
+
+        <div class="visualization-card">
+            <h2><i class="fas fa-project-diagram"></i> Sender to Category Flow</h2>
+            <div id="senderSankey"></div>
+        </div>
+
+        <div class="visualization-card">
+            <h2><i class="fas fa-users"></i> Email Relationship Analysis</h2>
+            <div id="relationshipChart"></div>
+        </div>
+    </div>
+
+    <script>
+        // Render the visualizations
+        Plotly.newPlot('toxicityPie', {{ pie_chart | safe }}.data, {{ pie_chart | safe }}.layout);
+        Plotly.newPlot('categoryBar', {{ category_chart | safe }}.data, {{ category_chart | safe }}.layout);
+        Plotly.newPlot('senderSankey', {{ sankey_diagram | safe }}.data, {{ sankey_diagram | safe }}.layout);
+        Plotly.newPlot('relationshipChart', {{ relationship_chart | safe }}.data, {{ relationship_chart | safe }}.layout);
+        
+        // Make charts responsive
+        window.onresize = function() {
+            Plotly.Plots.resize('toxicityPie');
+            Plotly.Plots.resize('categoryBar');
+            Plotly.Plots.resize('senderSankey');
+            Plotly.Plots.resize('relationshipChart');
+        };
+    </script>
+</body>
+</html> 

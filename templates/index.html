@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Toxicity Analyzer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header styles */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+
+        /* Form styles */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #34495e;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        /* Button styles */
+        .button-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            flex: 1;
+            transition: all 0.3s ease;
+        }
+
+        #classifyButton {
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        #classifyButton:hover {
+            background-color: #27ae60;
+        }
+
+        #sendReportButton {
+            background-color: #3498db;
+            color: white;
+        }
+
+        #sendReportButton:hover {
+            background-color: #2980b9;
+        }
+
+        button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        /* Progress container styles */
+        #progressContainer {
+            margin-top: 30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            display: none;
+        }
+
+        #progressContainer.visible {
+            display: block;
+        }
+
+        /* Phase styles */
+        .phase {
+            margin-bottom: 25px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            display: none;
+        }
+
+        .phase.active {
+            display: block;
+        }
+
+        .phase-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .phase-indicator {
+            font-weight: 600;
+            color: #2980b9;
+            font-size: 1.1em;
+        }
+
+        /* Progress bar styles */
+        .progress-status {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .progress-bar-container {
+            background-color: #ecf0f1;
+            border-radius: 4px;
+            overflow: hidden;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background-color: #3498db;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .operation-details {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Error container styles */
+        #errorContainer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #fee;
+            border: 1px solid #fcc;
+            border-radius: 6px;
+            color: #c0392b;
+            display: none;
+        }
+
+        #errorContainer.visible {
+            display: block;
+        }
+
+        /* Loading indicator */
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .btn-outline-danger {
+            transition: all 0.3s;
+        }
+
+        .btn-outline-danger:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #f8f9fa;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+            margin-bottom: 2rem;
+        }
+
+        .logout-btn {
+            padding: 0.5rem 1.2rem;
+            color: #dc3545;
+            border: 2px solid #dc3545;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            background-color: white;
+        }
+
+        .logout-btn:hover {
+            background-color: #dc3545;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(220, 53, 69, 0.2);
+        }
+
+        .logout-btn i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo-title">
+            <h1>Email Toxicity Analyzer</h1>
+        </div>
+        <div class="logout-container">
+            <a href="{{ url_for('logout') }}" class="logout-btn">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <form id="classificationForm" onsubmit="startClassification(event)">
+            <div class="form-group">
+                <label for="maxResults">Number of emails to analyze:</label>
+                <input type="number" id="maxResults" name="max_results" min="1" max="1000" value="100" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="startDate">Start Date:</label>
+                <input type="date" id="startDate" name="start_date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="endDate">End Date:</label>
+                <input type="date" id="endDate" name="end_date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="sender">Sender Email (optional):</label>
+                <input type="text" id="sender" name="sender" placeholder="example@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="emailCategory">Email Category:</label>
+                <select id="emailCategory" name="email_category">
+                    <option value="all">All Emails</option>
+                    <option value="primary">Primary</option>
+                    <option value="social">Social</option>
+                    <option value="promotions">Promotions</option>
+                    <option value="updates">Updates</option>
+                </select>
+            </div>
+            
+            <div class="button-container">
+                <button type="submit" id="classifyButton">Analyze Emails</button>
+                <button type="button" id="sendReportButton" onclick="autoClassifyAndSendReport()">
+                    Analyze & Send Report
+                </button>
+            </div>
+        </form>
+
+        <div id="progressContainer">
+            <div id="fetchingPhase" class="phase">
+                <div class="phase-header">
+                    <div class="phase-indicator">Phase 1: Fetching Emails</div>
+                </div>
+                <div class="progress-status">
+                    <div id="fetchingProgressText">Preparing to fetch emails...</div>
+                    <div id="fetchingProgressPercentage">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div id="fetchingProgressBar" class="progress-bar-fill"></div>
+                </div>
+                <div id="fetchingOperationDetails" class="operation-details"></div>
+            </div>
+
+            <div id="classificationPhase" class="phase">
+                <div class="phase-header">
+                    <div class="phase-indicator">Phase 2: Analyzing Emails</div>
+                </div>
+                <div class="progress-status">
+                    <div id="classificationProgressText">Waiting to begin analysis...</div>
+                    <div id="classificationProgressPercentage">0%</div>
+                </div>
+                <div class="progress-bar-container">
+                    <div id="classificationProgressBar" class="progress-bar-fill"></div>
+                </div>
+                <div id="classificationOperationDetails" class="operation-details"></div>
+            </div>
+        </div>
+
+        <div id="errorContainer"></div>
+    </div>
+
+    <script>
+        const socket = io();
+        
+        function startClassification(event) {
+            event.preventDefault();
+            
+            // Show progress container and reset phases
+            document.getElementById('progressContainer').style.display = 'block';
+            document.getElementById('errorContainer').style.display = 'none';
+            
+            // Show fetching phase, hide classification phase
+            document.getElementById('fetchingPhase').classList.add('active');
+            document.getElementById('classificationPhase').classList.remove('active');
+            
+            // Reset progress bars
+            document.getElementById('fetchingProgressBar').style.width = '0%';
+            document.getElementById('classificationProgressBar').style.width = '0%';
+            
+            // Reset progress text
+            document.getElementById('fetchingProgressText').textContent = 'Preparing to fetch emails...';
+            document.getElementById('classificationProgressText').textContent = 'Waiting to begin analysis...';
+            
+            // Disable buttons
+            document.getElementById('classifyButton').disabled = true;
+            document.getElementById('sendReportButton').disabled = true;
+            
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries());
+            
+            // Start classification
+            socket.emit('start_classification', data);
+        }
+
+        // Handle phase changes
+        socket.on('phase_change', (data) => {
+            if (data.phase === 'classification') {
+                document.getElementById('fetchingPhase').classList.remove('active');
+                document.getElementById('classificationPhase').classList.add('active');
+                document.getElementById('classificationProgressText').textContent = 'Starting email analysis...';
+            }
+        });
+
+        // Handle progress updates
+        socket.on('progress_update', (data) => {
+            const progress = data.progress.toFixed(2);
+            
+            if (data.phase === 'fetching') {
+                document.getElementById('fetchingProgressBar').style.width = `${progress}%`;
+                document.getElementById('fetchingProgressPercentage').textContent = `${progress}%`;
+                document.getElementById('fetchingOperationDetails').textContent = data.message;
+                
+                if (progress >= 100) {
+                    setTimeout(() => {
+                        document.getElementById('fetchingPhase').classList.remove('active');
+                        document.getElementById('classificationPhase').classList.add('active');
+                    }, 500);
+                }
+            } else if (data.phase === 'classification') {
+                document.getElementById('classificationProgressBar').style.width = `${progress}%`;
+                document.getElementById('classificationProgressPercentage').textContent = `${progress}%`;
+                
+                let details = `Analyzing: ${data.current}/${data.total}`;
+                if (data.speed !== undefined) {
+                    details += ` (${data.speed.toFixed(2)} emails/sec)`;
+                }
+                document.getElementById('classificationOperationDetails').textContent = details;
+            }
+        });
+
+        // Handle completion
+        socket.on('classification_complete', (data) => {
+            document.getElementById('classificationProgressText').textContent = 'Analysis Complete!';
+            
+            setTimeout(() => {
+                window.location.href = data.redirect_url;
+            }, 1000);
+        });
+
+        // Handle errors
+        socket.on('error', (data) => {
+            document.getElementById('errorContainer').style.display = 'block';
+            document.getElementById('errorContainer').textContent = data.message;
+            
+            document.getElementById('classifyButton').disabled = false;
+            document.getElementById('sendReportButton').disabled = false;
+        });
+
+        async function autoClassifyAndSendReport() {
+            try {
+                const form = document.getElementById('classificationForm');
+                const submitEvent = new Event('submit', { cancelable: true });
+                form.dispatchEvent(submitEvent);
+            } catch (error) {
+                document.getElementById('errorContainer').style.display = 'block';
+                document.getElementById('errorContainer').textContent = error.message;
+            }
+        }
+
+        // Initialize date inputs
+        window.onload = function() {
+            const today = new Date();
+            const oneMonthAgo = new Date();
+            oneMonthAgo.setMonth(today.getMonth() - 1);
+            
+            document.getElementById('startDate').value = oneMonthAgo.toISOString().split('T')[0];
+            document.getElementById('endDate').value = today.toISOString().split('T')[0];
+        };
+    </script>
+</body>
+</html>
