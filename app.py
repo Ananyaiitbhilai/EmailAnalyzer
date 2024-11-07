@@ -48,7 +48,25 @@ from database.mongo_helper import MongoHelper
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY', 'default-secret-key')
-socketio = SocketIO(app, async_mode='eventlet')
+socketio = SocketIO(
+    app,
+    async_mode='eventlet',
+    cors_allowed_origins=[
+        "https://fetchemailanalyzer.onrender.com",
+        "https://fetchemailanalyzer.onrender.com:*",
+        "http://localhost:5000",
+        "http://127.0.0.1:5000"
+    ],
+    ping_timeout=60,
+    ping_interval=25,
+    engineio_logger=True,
+    logger=True,
+    manage_session=False,
+    max_http_buffer_size=1e8,  # 100MB
+    async_handlers=True,
+    websocket_ping_interval=25,
+    websocket_ping_timeout=60
+)
 
 # OAuth2 Configuration
 SCOPES = [
